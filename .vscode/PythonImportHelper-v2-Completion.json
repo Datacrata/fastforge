@@ -1,0 +1,3467 @@
+[
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "TypeVar",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Generic",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Type",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "TypeVar",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Generic",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Type",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Generator",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Type",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Type",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "field",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "field",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "field",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "field",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Query",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Query",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Query",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "BaseHTTPMiddleware",
+        "importPath": "starlette.middleware.base",
+        "description": "starlette.middleware.base",
+        "isExtraImport": true,
+        "detail": "starlette.middleware.base",
+        "documentation": {}
+    },
+    {
+        "label": "BaseHTTPMiddleware",
+        "importPath": "starlette.middleware.base",
+        "description": "starlette.middleware.base",
+        "isExtraImport": true,
+        "detail": "starlette.middleware.base",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "EmailStr",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "ConfigDict",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "ConfigDict",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "ConfigDict",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "DeclarativeBase",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "declared_attr",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "event",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "or_",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "func",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "inspect",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Table",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "func",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "or_",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Float",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Date",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Numeric",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "wraps",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "subprocess",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "subprocess",
+        "description": "subprocess",
+        "detail": "subprocess",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.core.config",
+        "description": "app.core.config",
+        "isExtraImport": true,
+        "detail": "app.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.core.config",
+        "description": "app.core.config",
+        "isExtraImport": true,
+        "detail": "app.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.core.config",
+        "description": "app.core.config",
+        "isExtraImport": true,
+        "detail": "app.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.core.config",
+        "description": "app.core.config",
+        "isExtraImport": true,
+        "detail": "app.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "fastforge_core.base.entities",
+        "description": "fastforge_core.base.entities",
+        "isExtraImport": true,
+        "detail": "fastforge_core.base.entities",
+        "documentation": {}
+    },
+    {
+        "label": "FullAuditedEntity",
+        "importPath": "fastforge_core.base.entities",
+        "description": "fastforge_core.base.entities",
+        "isExtraImport": true,
+        "detail": "fastforge_core.base.entities",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "fastforge_core.base.entities",
+        "description": "fastforge_core.base.entities",
+        "isExtraImport": true,
+        "detail": "fastforge_core.base.entities",
+        "documentation": {}
+    },
+    {
+        "label": "AuditedEntity",
+        "importPath": "fastforge_core.base.entities",
+        "description": "fastforge_core.base.entities",
+        "isExtraImport": true,
+        "detail": "fastforge_core.base.entities",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "fastforge_core.base.entities",
+        "description": "fastforge_core.base.entities",
+        "isExtraImport": true,
+        "detail": "fastforge_core.base.entities",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "fastforge_core.base.entities",
+        "description": "fastforge_core.base.entities",
+        "isExtraImport": true,
+        "detail": "fastforge_core.base.entities",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "JSONResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "RequestValidationError",
+        "importPath": "fastapi.exceptions",
+        "description": "fastapi.exceptions",
+        "isExtraImport": true,
+        "detail": "fastapi.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "starlette.exceptions",
+        "description": "starlette.exceptions",
+        "isExtraImport": true,
+        "detail": "starlette.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "traceback",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "traceback",
+        "description": "traceback",
+        "detail": "traceback",
+        "documentation": {}
+    },
+    {
+        "label": "JwtService",
+        "importPath": "fastforge_core.auth",
+        "description": "fastforge_core.auth",
+        "isExtraImport": true,
+        "detail": "fastforge_core.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "importPath": "fastforge_core.auth",
+        "description": "fastforge_core.auth",
+        "isExtraImport": true,
+        "detail": "fastforge_core.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user_id",
+        "importPath": "fastforge_core.auth",
+        "description": "fastforge_core.auth",
+        "isExtraImport": true,
+        "detail": "fastforge_core.auth",
+        "documentation": {}
+    },
+    {
+        "label": "JwtService",
+        "importPath": "fastforge_core.auth",
+        "description": "fastforge_core.auth",
+        "isExtraImport": true,
+        "detail": "fastforge_core.auth",
+        "documentation": {}
+    },
+    {
+        "label": "hash_password",
+        "importPath": "fastforge_core.auth",
+        "description": "fastforge_core.auth",
+        "isExtraImport": true,
+        "detail": "fastforge_core.auth",
+        "documentation": {}
+    },
+    {
+        "label": "verify_password",
+        "importPath": "fastforge_core.auth",
+        "description": "fastforge_core.auth",
+        "isExtraImport": true,
+        "detail": "fastforge_core.auth",
+        "documentation": {}
+    },
+    {
+        "label": "JwtService",
+        "importPath": "fastforge_core.auth",
+        "description": "fastforge_core.auth",
+        "isExtraImport": true,
+        "detail": "fastforge_core.auth",
+        "documentation": {}
+    },
+    {
+        "label": "TokenConfig",
+        "importPath": "fastforge_core.auth",
+        "description": "fastforge_core.auth",
+        "isExtraImport": true,
+        "detail": "fastforge_core.auth",
+        "documentation": {}
+    },
+    {
+        "label": "AuthMiddleware",
+        "importPath": "fastforge_core.auth",
+        "description": "fastforge_core.auth",
+        "isExtraImport": true,
+        "detail": "fastforge_core.auth",
+        "documentation": {}
+    },
+    {
+        "label": "BusinessException",
+        "importPath": "fastforge_core.middleware.exceptions",
+        "description": "fastforge_core.middleware.exceptions",
+        "isExtraImport": true,
+        "detail": "fastforge_core.middleware.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "BusinessException",
+        "importPath": "fastforge_core.middleware.exceptions",
+        "description": "fastforge_core.middleware.exceptions",
+        "isExtraImport": true,
+        "detail": "fastforge_core.middleware.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "shutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shutil",
+        "description": "shutil",
+        "detail": "shutil",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "BaseSettings",
+        "importPath": "pydantic_settings",
+        "description": "pydantic_settings",
+        "isExtraImport": true,
+        "detail": "pydantic_settings",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncIOMotorClient",
+        "importPath": "motor.motor_asyncio",
+        "description": "motor.motor_asyncio",
+        "isExtraImport": true,
+        "detail": "motor.motor_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "init_beanie",
+        "importPath": "beanie",
+        "description": "beanie",
+        "isExtraImport": true,
+        "detail": "beanie",
+        "documentation": {}
+    },
+    {
+        "label": "DatabaseConfig",
+        "importPath": "fastforge_core",
+        "description": "fastforge_core",
+        "isExtraImport": true,
+        "detail": "fastforge_core",
+        "documentation": {}
+    },
+    {
+        "label": "register_exception_handlers",
+        "importPath": "fastforge_core",
+        "description": "fastforge_core",
+        "isExtraImport": true,
+        "detail": "fastforge_core",
+        "documentation": {}
+    },
+    {
+        "label": "PermissionGroup",
+        "importPath": "fastforge_core",
+        "description": "fastforge_core",
+        "isExtraImport": true,
+        "detail": "fastforge_core",
+        "documentation": {}
+    },
+    {
+        "label": "GenericRepository",
+        "importPath": "fastforge_core",
+        "description": "fastforge_core",
+        "isExtraImport": true,
+        "detail": "fastforge_core",
+        "documentation": {}
+    },
+    {
+        "label": "CrudAppService",
+        "importPath": "fastforge_core",
+        "description": "fastforge_core",
+        "isExtraImport": true,
+        "detail": "fastforge_core",
+        "documentation": {}
+    },
+    {
+        "label": "FullAuditedEntity",
+        "importPath": "fastforge_core",
+        "description": "fastforge_core",
+        "isExtraImport": true,
+        "detail": "fastforge_core",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "db_config",
+        "importPath": "app.db",
+        "description": "app.db",
+        "isExtraImport": true,
+        "detail": "app.db",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db",
+        "description": "app.db",
+        "isExtraImport": true,
+        "detail": "app.db",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.db",
+        "description": "app.db",
+        "isExtraImport": true,
+        "detail": "app.db",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db",
+        "description": "app.db",
+        "isExtraImport": true,
+        "detail": "app.db",
+        "documentation": {}
+    },
+    {
+        "label": "api_router",
+        "importPath": "app.api.router",
+        "description": "app.api.router",
+        "isExtraImport": true,
+        "detail": "app.api.router",
+        "documentation": {}
+    },
+    {
+        "label": "AuditLogMiddleware",
+        "importPath": "fastforge_core.middleware.audit",
+        "description": "fastforge_core.middleware.audit",
+        "isExtraImport": true,
+        "detail": "fastforge_core.middleware.audit",
+        "documentation": {}
+    },
+    {
+        "label": "create_identity_router",
+        "importPath": "fastforge_core.modules.identity",
+        "description": "fastforge_core.modules.identity",
+        "isExtraImport": true,
+        "detail": "fastforge_core.modules.identity",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "fastforge_core.modules.identity.models",
+        "description": "fastforge_core.modules.identity.models",
+        "isExtraImport": true,
+        "detail": "fastforge_core.modules.identity.models",
+        "documentation": {}
+    },
+    {
+        "label": "Role",
+        "importPath": "fastforge_core.modules.identity.models",
+        "description": "fastforge_core.modules.identity.models",
+        "isExtraImport": true,
+        "detail": "fastforge_core.modules.identity.models",
+        "documentation": {}
+    },
+    {
+        "label": "create_tenant_router",
+        "importPath": "fastforge_core.modules.tenant_management",
+        "description": "fastforge_core.modules.tenant_management",
+        "isExtraImport": true,
+        "detail": "fastforge_core.modules.tenant_management",
+        "documentation": {}
+    },
+    {
+        "label": "Tenant",
+        "importPath": "fastforge_core.modules.tenant_management.models",
+        "description": "fastforge_core.modules.tenant_management.models",
+        "isExtraImport": true,
+        "detail": "fastforge_core.modules.tenant_management.models",
+        "documentation": {}
+    },
+    {
+        "label": "TenantFeature",
+        "importPath": "fastforge_core.modules.tenant_management.models",
+        "description": "fastforge_core.modules.tenant_management.models",
+        "isExtraImport": true,
+        "detail": "fastforge_core.modules.tenant_management.models",
+        "documentation": {}
+    },
+    {
+        "label": "seed_manager",
+        "importPath": "fastforge_core.modules.data_seeding",
+        "description": "fastforge_core.modules.data_seeding",
+        "isExtraImport": true,
+        "detail": "fastforge_core.modules.data_seeding",
+        "documentation": {}
+    },
+    {
+        "label": "SettingValue",
+        "importPath": "fastforge_core.settings",
+        "description": "fastforge_core.settings",
+        "isExtraImport": true,
+        "detail": "fastforge_core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "react",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "react",
+        "description": "react",
+        "detail": "react",
+        "documentation": {}
+    },
+    {
+        "label": "ReactDOM",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "ReactDOM",
+        "description": "ReactDOM",
+        "detail": "ReactDOM",
+        "documentation": {}
+    },
+    {
+        "label": "App",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "App",
+        "description": "App",
+        "detail": "App",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "React,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "React.",
+        "description": "React.",
+        "detail": "React.",
+        "documentation": {}
+    },
+    {
+        "label": "axios",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "axios",
+        "description": "axios",
+        "detail": "axios",
+        "documentation": {}
+    },
+    {
+        "label": "{",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "{",
+        "description": "{",
+        "detail": "{",
+        "documentation": {}
+    },
+    {
+        "label": "React",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "React",
+        "description": "React",
+        "detail": "React",
+        "documentation": {}
+    },
+    {
+        "label": "{pascal}",
+        "importPath": "app.models.{snake}",
+        "description": "app.models.{snake}",
+        "isExtraImport": true,
+        "detail": "app.models.{snake}",
+        "documentation": {}
+    },
+    {
+        "label": "{pascal}",
+        "importPath": "app.models.{snake}",
+        "description": "app.models.{snake}",
+        "isExtraImport": true,
+        "detail": "app.models.{snake}",
+        "documentation": {}
+    },
+    {
+        "label": "{pascal}Create",
+        "importPath": "app.schemas.{snake}",
+        "description": "app.schemas.{snake}",
+        "isExtraImport": true,
+        "detail": "app.schemas.{snake}",
+        "documentation": {}
+    },
+    {
+        "label": "{pascal}Update",
+        "importPath": "app.schemas.{snake}",
+        "description": "app.schemas.{snake}",
+        "isExtraImport": true,
+        "detail": "app.schemas.{snake}",
+        "documentation": {}
+    },
+    {
+        "label": "{pascal}Response",
+        "importPath": "app.schemas.{snake}",
+        "description": "app.schemas.{snake}",
+        "isExtraImport": true,
+        "detail": "app.schemas.{snake}",
+        "documentation": {}
+    },
+    {
+        "label": "{pascal}Create",
+        "importPath": "app.schemas.{snake}",
+        "description": "app.schemas.{snake}",
+        "isExtraImport": true,
+        "detail": "app.schemas.{snake}",
+        "documentation": {}
+    },
+    {
+        "label": "{pascal}Update",
+        "importPath": "app.schemas.{snake}",
+        "description": "app.schemas.{snake}",
+        "isExtraImport": true,
+        "detail": "app.schemas.{snake}",
+        "documentation": {}
+    },
+    {
+        "label": "{pascal}Response",
+        "importPath": "app.schemas.{snake}",
+        "description": "app.schemas.{snake}",
+        "isExtraImport": true,
+        "detail": "app.schemas.{snake}",
+        "documentation": {}
+    },
+    {
+        "label": "{pascal}ListResponse",
+        "importPath": "app.schemas.{snake}",
+        "description": "app.schemas.{snake}",
+        "isExtraImport": true,
+        "detail": "app.schemas.{snake}",
+        "documentation": {}
+    },
+    {
+        "label": "{pascal}Repository",
+        "importPath": "app.repositories.{snake}_repository",
+        "description": "app.repositories.{snake}_repository",
+        "isExtraImport": true,
+        "detail": "app.repositories.{snake}_repository",
+        "documentation": {}
+    },
+    {
+        "label": "{pascal}Service",
+        "importPath": "app.services.{snake}_service",
+        "description": "app.services.{snake}_service",
+        "isExtraImport": true,
+        "detail": "app.services.{snake}_service",
+        "documentation": {}
+    },
+    {
+        "label": "axios,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "axios.",
+        "description": "axios.",
+        "detail": "axios.",
+        "documentation": {}
+    },
+    {
+        "label": "ast",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "ast",
+        "description": "ast",
+        "detail": "ast",
+        "documentation": {}
+    },
+    {
+        "label": "urlparse",
+        "importPath": "urllib.parse",
+        "description": "urllib.parse",
+        "isExtraImport": true,
+        "detail": "urllib.parse",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "importPath": "cli",
+        "description": "cli",
+        "isExtraImport": true,
+        "detail": "cli",
+        "documentation": {}
+    },
+    {
+        "label": "TokenConfig",
+        "kind": 6,
+        "importPath": "backend.fastforge_core.auth.jwt_service",
+        "description": "backend.fastforge_core.auth.jwt_service",
+        "peekOfCode": "class TokenConfig:\n    \"\"\"JWT configuration.\"\"\"\n    secret: str = \"change-this-in-production\"\n    algorithm: str = \"HS256\"\n    access_expire_minutes: int = 60\n    refresh_expire_days: int = 30\n@dataclass\nclass TokenPayload:\n    \"\"\"Decoded token data.\"\"\"\n    sub: str  # user ID",
+        "detail": "backend.fastforge_core.auth.jwt_service",
+        "documentation": {}
+    },
+    {
+        "label": "TokenPayload",
+        "kind": 6,
+        "importPath": "backend.fastforge_core.auth.jwt_service",
+        "description": "backend.fastforge_core.auth.jwt_service",
+        "peekOfCode": "class TokenPayload:\n    \"\"\"Decoded token data.\"\"\"\n    sub: str  # user ID\n    email: Optional[str] = None\n    roles: list[str] = field(default_factory=list)\n    permissions: list[str] = field(default_factory=list)\n    tenant_id: Optional[str] = None\n    exp: Optional[datetime] = None\n    token_type: str = \"access\"  # \"access\" or \"refresh\"\nclass JwtService:",
+        "detail": "backend.fastforge_core.auth.jwt_service",
+        "documentation": {}
+    },
+    {
+        "label": "JwtService",
+        "kind": 6,
+        "importPath": "backend.fastforge_core.auth.jwt_service",
+        "description": "backend.fastforge_core.auth.jwt_service",
+        "peekOfCode": "class JwtService:\n    \"\"\"\n    Stateless JWT service.\n    Create one instance in your app and reuse it.\n    \"\"\"\n    def __init__(self, config: TokenConfig):\n        self.config = config\n    def create_access_token(\n        self,\n        user_id: str,",
+        "detail": "backend.fastforge_core.auth.jwt_service",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.fastforge_core.auth.jwt_service",
+        "description": "backend.fastforge_core.auth.jwt_service",
+        "peekOfCode": "logger = logging.getLogger(\"fastforge.auth\")\ntry:\n    from jose import jwt, JWTError, ExpiredSignatureError\nexcept ImportError:\n    raise ImportError(\"Install python-jose: pip install python-jose[cryptography]\")\n@dataclass\nclass TokenConfig:\n    \"\"\"JWT configuration.\"\"\"\n    secret: str = \"change-this-in-production\"\n    algorithm: str = \"HS256\"",
+        "detail": "backend.fastforge_core.auth.jwt_service",
+        "documentation": {}
+    },
+    {
+        "label": "AuthMiddleware",
+        "kind": 6,
+        "importPath": "backend.fastforge_core.auth.middleware",
+        "description": "backend.fastforge_core.auth.middleware",
+        "peekOfCode": "class AuthMiddleware(BaseHTTPMiddleware):\n    \"\"\"\n    JWT authentication middleware.\n    Populates request.state with user context from the token.\n    Does NOT reject unauthenticated requests — that's the job of\n    @require_permission or Depends(get_current_user).\n    Usage:\n        jwt_service = JwtService(config)\n        app.add_middleware(AuthMiddleware, jwt_service=jwt_service)\n    \"\"\"",
+        "detail": "backend.fastforge_core.auth.middleware",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "kind": 2,
+        "importPath": "backend.fastforge_core.auth.middleware",
+        "description": "backend.fastforge_core.auth.middleware",
+        "peekOfCode": "def get_current_user(request: Request) -> dict:\n    \"\"\"\n    FastAPI dependency — returns current user info or raises 401.\n    Usage:\n        @router.get(\"/me\")\n        def get_me(user = Depends(get_current_user)):\n            return user\n    \"\"\"\n    if not request.state.is_authenticated:\n        from fastapi import HTTPException, status",
+        "detail": "backend.fastforge_core.auth.middleware",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user_id",
+        "kind": 2,
+        "importPath": "backend.fastforge_core.auth.middleware",
+        "description": "backend.fastforge_core.auth.middleware",
+        "peekOfCode": "def get_current_user_id(request: Request) -> str:\n    \"\"\"FastAPI dependency — returns current user ID or raises 401.\"\"\"\n    user = get_current_user(request)\n    return user[\"user_id\"]\ndef get_optional_user(request: Request) -> dict | None:\n    \"\"\"FastAPI dependency — returns user info or None (no 401).\"\"\"\n    if request.state.is_authenticated:\n        return {\n            \"user_id\": request.state.user_id,\n            \"email\": request.state.email,",
+        "detail": "backend.fastforge_core.auth.middleware",
+        "documentation": {}
+    },
+    {
+        "label": "get_optional_user",
+        "kind": 2,
+        "importPath": "backend.fastforge_core.auth.middleware",
+        "description": "backend.fastforge_core.auth.middleware",
+        "peekOfCode": "def get_optional_user(request: Request) -> dict | None:\n    \"\"\"FastAPI dependency — returns user info or None (no 401).\"\"\"\n    if request.state.is_authenticated:\n        return {\n            \"user_id\": request.state.user_id,\n            \"email\": request.state.email,\n            \"roles\": list(request.state.roles),\n            \"permissions\": list(request.state.permissions),\n            \"tenant_id\": request.state.tenant_id,\n        }",
+        "detail": "backend.fastforge_core.auth.middleware",
+        "documentation": {}
+    },
+    {
+        "label": "get_tenant_id",
+        "kind": 2,
+        "importPath": "backend.fastforge_core.auth.middleware",
+        "description": "backend.fastforge_core.auth.middleware",
+        "peekOfCode": "def get_tenant_id(request: Request) -> str | None:\n    \"\"\"FastAPI dependency — returns current tenant ID.\"\"\"\n    return request.state.tenant_id",
+        "detail": "backend.fastforge_core.auth.middleware",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.fastforge_core.auth.middleware",
+        "description": "backend.fastforge_core.auth.middleware",
+        "peekOfCode": "logger = logging.getLogger(\"fastforge.auth\")\nclass AuthMiddleware(BaseHTTPMiddleware):\n    \"\"\"\n    JWT authentication middleware.\n    Populates request.state with user context from the token.\n    Does NOT reject unauthenticated requests — that's the job of\n    @require_permission or Depends(get_current_user).\n    Usage:\n        jwt_service = JwtService(config)\n        app.add_middleware(AuthMiddleware, jwt_service=jwt_service)",
+        "detail": "backend.fastforge_core.auth.middleware",
+        "documentation": {}
+    },
+    {
+        "label": "hash_password",
+        "kind": 2,
+        "importPath": "backend.fastforge_core.auth.password",
+        "description": "backend.fastforge_core.auth.password",
+        "peekOfCode": "def hash_password(password: str) -> str:\n    \"\"\"Hash a plain-text password.\"\"\"\n    if pwd_context is None:\n        raise ImportError(\"Install passlib: pip install passlib[bcrypt]\")\n    return pwd_context.hash(password)\ndef verify_password(plain: str, hashed: str) -> bool:\n    \"\"\"Verify a password against its hash.\"\"\"\n    if pwd_context is None:\n        raise ImportError(\"Install passlib: pip install passlib[bcrypt]\")\n    return pwd_context.verify(plain, hashed)",
+        "detail": "backend.fastforge_core.auth.password",
+        "documentation": {}
+    },
+    {
+        "label": "verify_password",
+        "kind": 2,
+        "importPath": "backend.fastforge_core.auth.password",
+        "description": "backend.fastforge_core.auth.password",
+        "peekOfCode": "def verify_password(plain: str, hashed: str) -> bool:\n    \"\"\"Verify a password against its hash.\"\"\"\n    if pwd_context is None:\n        raise ImportError(\"Install passlib: pip install passlib[bcrypt]\")\n    return pwd_context.verify(plain, hashed)",
+        "detail": "backend.fastforge_core.auth.password",
+        "documentation": {}
+    },
+    {
+        "label": "CrudAppService",
+        "kind": 6,
+        "importPath": "backend.fastforge_core.base.app_service",
+        "description": "backend.fastforge_core.base.app_service",
+        "peekOfCode": "class CrudAppService(Generic[TEntity, TCreate, TUpdate, TResponse]):\n    \"\"\"\n    Base CRUD application service.\n    Handles the standard get/list/create/update/delete workflow.\n    Override hooks for custom business logic:\n      - before_create(data) → called before insert\n      - after_create(entity) → called after insert\n      - before_update(entity, data) → called before update\n      - after_update(entity) → called after update\n      - before_delete(entity) → called before delete",
+        "detail": "backend.fastforge_core.base.app_service",
+        "documentation": {}
+    },
+    {
+        "label": "TEntity",
+        "kind": 5,
+        "importPath": "backend.fastforge_core.base.app_service",
+        "description": "backend.fastforge_core.base.app_service",
+        "peekOfCode": "TEntity = TypeVar(\"TEntity\", bound=Base)\nTCreate = TypeVar(\"TCreate\", bound=BaseModel)\nTUpdate = TypeVar(\"TUpdate\", bound=BaseModel)\nTResponse = TypeVar(\"TResponse\", bound=BaseModel)\nclass CrudAppService(Generic[TEntity, TCreate, TUpdate, TResponse]):\n    \"\"\"\n    Base CRUD application service.\n    Handles the standard get/list/create/update/delete workflow.\n    Override hooks for custom business logic:\n      - before_create(data) → called before insert",
+        "detail": "backend.fastforge_core.base.app_service",
+        "documentation": {}
+    },
+    {
+        "label": "TCreate",
+        "kind": 5,
+        "importPath": "backend.fastforge_core.base.app_service",
+        "description": "backend.fastforge_core.base.app_service",
+        "peekOfCode": "TCreate = TypeVar(\"TCreate\", bound=BaseModel)\nTUpdate = TypeVar(\"TUpdate\", bound=BaseModel)\nTResponse = TypeVar(\"TResponse\", bound=BaseModel)\nclass CrudAppService(Generic[TEntity, TCreate, TUpdate, TResponse]):\n    \"\"\"\n    Base CRUD application service.\n    Handles the standard get/list/create/update/delete workflow.\n    Override hooks for custom business logic:\n      - before_create(data) → called before insert\n      - after_create(entity) → called after insert",
+        "detail": "backend.fastforge_core.base.app_service",
+        "documentation": {}
+    },
+    {
+        "label": "TUpdate",
+        "kind": 5,
+        "importPath": "backend.fastforge_core.base.app_service",
+        "description": "backend.fastforge_core.base.app_service",
+        "peekOfCode": "TUpdate = TypeVar(\"TUpdate\", bound=BaseModel)\nTResponse = TypeVar(\"TResponse\", bound=BaseModel)\nclass CrudAppService(Generic[TEntity, TCreate, TUpdate, TResponse]):\n    \"\"\"\n    Base CRUD application service.\n    Handles the standard get/list/create/update/delete workflow.\n    Override hooks for custom business logic:\n      - before_create(data) → called before insert\n      - after_create(entity) → called after insert\n      - before_update(entity, data) → called before update",
+        "detail": "backend.fastforge_core.base.app_service",
+        "documentation": {}
+    },
+    {
+        "label": "TResponse",
+        "kind": 5,
+        "importPath": "backend.fastforge_core.base.app_service",
+        "description": "backend.fastforge_core.base.app_service",
+        "peekOfCode": "TResponse = TypeVar(\"TResponse\", bound=BaseModel)\nclass CrudAppService(Generic[TEntity, TCreate, TUpdate, TResponse]):\n    \"\"\"\n    Base CRUD application service.\n    Handles the standard get/list/create/update/delete workflow.\n    Override hooks for custom business logic:\n      - before_create(data) → called before insert\n      - after_create(entity) → called after insert\n      - before_update(entity, data) → called before update\n      - after_update(entity) → called after update",
+        "detail": "backend.fastforge_core.base.app_service",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 6,
+        "importPath": "backend.fastforge_core.base.entities",
+        "description": "backend.fastforge_core.base.entities",
+        "peekOfCode": "class Base(DeclarativeBase):\n    \"\"\"SQLAlchemy declarative base for all FastForge entities.\"\"\"\n    pass\nclass Entity(Base):\n    \"\"\"\n    Base entity with auto-incrementing integer PK.\n    \"\"\"\n    __abstract__ = True\n    id = Column(Integer, primary_key=True, index=True, autoincrement=True)\n    def __repr__(self):",
+        "detail": "backend.fastforge_core.base.entities",
+        "documentation": {}
+    },
+    {
+        "label": "Entity",
+        "kind": 6,
+        "importPath": "backend.fastforge_core.base.entities",
+        "description": "backend.fastforge_core.base.entities",
+        "peekOfCode": "class Entity(Base):\n    \"\"\"\n    Base entity with auto-incrementing integer PK.\n    \"\"\"\n    __abstract__ = True\n    id = Column(Integer, primary_key=True, index=True, autoincrement=True)\n    def __repr__(self):\n        return f\"<{self.__class__.__name__}(id={self.id})>\"\nclass AuditedEntity(Entity):\n    \"\"\"",
+        "detail": "backend.fastforge_core.base.entities",
+        "documentation": {}
+    },
+    {
+        "label": "AuditedEntity",
+        "kind": 6,
+        "importPath": "backend.fastforge_core.base.entities",
+        "description": "backend.fastforge_core.base.entities",
+        "peekOfCode": "class AuditedEntity(Entity):\n    \"\"\"\n    Entity with creation/modification tracking.\n    Auto-sets:\n      - created_at: when record is first inserted\n      - updated_at: when record is modified\n      - created_by: user ID who created (if auth context available)\n      - updated_by: user ID who last modified\n    \"\"\"\n    __abstract__ = True",
+        "detail": "backend.fastforge_core.base.entities",
+        "documentation": {}
+    },
+    {
+        "label": "SoftDeleteEntity",
+        "kind": 6,
+        "importPath": "backend.fastforge_core.base.entities",
+        "description": "backend.fastforge_core.base.entities",
+        "peekOfCode": "class SoftDeleteEntity(AuditedEntity):\n    \"\"\"\n    Audited entity with soft delete.\n    Records are never physically deleted — is_deleted is set to True.\n    The GenericRepository auto-filters soft-deleted records.\n    \"\"\"\n    __abstract__ = True\n    is_deleted = Column(Boolean, default=False, nullable=False, index=True)\n    deleted_at = Column(DateTime(timezone=True), nullable=True)\n    deleted_by = Column(String(100), nullable=True)",
+        "detail": "backend.fastforge_core.base.entities",
+        "documentation": {}
+    },
+    {
+        "label": "FullAuditedEntity",
+        "kind": 6,
+        "importPath": "backend.fastforge_core.base.entities",
+        "description": "backend.fastforge_core.base.entities",
+        "peekOfCode": "class FullAuditedEntity(SoftDeleteEntity):\n    \"\"\"\n    The most complete entity base — audit + soft delete.\n    Use this as your default for business entities.\n    \"\"\"\n    __abstract__ = True\n# ─── Multi-Tenancy Mixin (opt-in) ───────────────────────────────────────────\nclass MultiTenantMixin:\n    \"\"\"\n    Add this mixin to make an entity multi-tenant.",
+        "detail": "backend.fastforge_core.base.entities",
+        "documentation": {}
+    },
+    {
+        "label": "MultiTenantMixin",
+        "kind": 6,
+        "importPath": "backend.fastforge_core.base.entities",
+        "description": "backend.fastforge_core.base.entities",
+        "peekOfCode": "class MultiTenantMixin:\n    \"\"\"\n    Add this mixin to make an entity multi-tenant.\n    Usage:\n        class Product(FullAuditedEntity, MultiTenantMixin):\n            __tablename__ = \"products\"\n            ...\n    The GenericRepository auto-filters by tenant_id.\n    \"\"\"\n    @declared_attr",
+        "detail": "backend.fastforge_core.base.entities",
+        "documentation": {}
+    },
+    {
+        "label": "PermissionGroup",
+        "kind": 6,
+        "importPath": "backend.fastforge_core.base.permissions",
+        "description": "backend.fastforge_core.base.permissions",
+        "peekOfCode": "class PermissionGroup:\n    \"\"\"\n    Define permissions for an entity. \n    Usage:\n        ProductPermissions = PermissionGroup(\"Products\", [\n            \"Create\", \"Read\", \"Update\", \"Delete\", \"Export\"\n        ])\n        # Then use:\n        @require_permission(ProductPermissions.Create)\n        def create_product(...):",
+        "detail": "backend.fastforge_core.base.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "require_permission",
+        "kind": 2,
+        "importPath": "backend.fastforge_core.base.permissions",
+        "description": "backend.fastforge_core.base.permissions",
+        "peekOfCode": "def require_permission(permission: str):\n    \"\"\"\n    Decorator that checks a single permission.\n    Name\")].\n    The user's permissions are expected in request.state.permissions (Set[str])\n    or from the JWT token claims.\n    \"\"\"\n    def decorator(func: Callable):\n        @wraps(func)\n        async def wrapper(*args, request: Request = None, **kwargs):",
+        "detail": "backend.fastforge_core.base.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "require_permissions",
+        "kind": 2,
+        "importPath": "backend.fastforge_core.base.permissions",
+        "description": "backend.fastforge_core.base.permissions",
+        "peekOfCode": "def require_permissions(*permissions: str, require_all: bool = True):\n    \"\"\"\n    Decorator that checks multiple permissions.\n    Args:\n        permissions: Permission names to check\n        require_all: If True, ALL permissions required. If False, ANY is sufficient.\n    \"\"\"\n    def decorator(func: Callable):\n        @wraps(func)\n        async def wrapper(*args, request: Request = None, **kwargs):",
+        "detail": "backend.fastforge_core.base.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "require_role",
+        "kind": 2,
+        "importPath": "backend.fastforge_core.base.permissions",
+        "description": "backend.fastforge_core.base.permissions",
+        "peekOfCode": "def require_role(role: str):\n    \"\"\"Check that the current user has a specific role.\"\"\"\n    def decorator(func: Callable):\n        @wraps(func)\n        async def wrapper(*args, request: Request = None, **kwargs):\n            user_roles = _get_user_roles(request)\n            if role not in user_roles:\n                raise HTTPException(\n                    status_code=status.HTTP_403_FORBIDDEN,\n                    detail=f\"Requires role: {role}\",",
+        "detail": "backend.fastforge_core.base.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "PagedResult",
+        "kind": 6,
+        "importPath": "backend.fastforge_core.base.repository",
+        "description": "backend.fastforge_core.base.repository",
+        "peekOfCode": "class PagedResult:\n    \"\"\"Paginated query result — matches FastForge's IPagedResult.\"\"\"\n    items: list\n    total: int\n    page: int\n    page_size: int\n    @property\n    def total_pages(self) -> int:\n        if self.page_size <= 0:\n            return 0",
+        "detail": "backend.fastforge_core.base.repository",
+        "documentation": {}
+    },
+    {
+        "label": "GenericRepository",
+        "kind": 6,
+        "importPath": "backend.fastforge_core.base.repository",
+        "description": "backend.fastforge_core.base.repository",
+        "peekOfCode": "class GenericRepository(Generic[T]):\n    \"\"\"\n    Generic repository with CRUD + pagination + search + sort.\n    Automatically handles:\n      - Soft delete filtering (if entity has is_deleted)\n      - Multi-tenant filtering (if entity has tenant_id)\n      - Audit field population (created_by, updated_by)\n    \"\"\"\n    # Override in subclass to enable search\n    searchable_fields: list[str] = []",
+        "detail": "backend.fastforge_core.base.repository",
+        "documentation": {}
+    },
+    {
+        "label": "T",
+        "kind": 5,
+        "importPath": "backend.fastforge_core.base.repository",
+        "description": "backend.fastforge_core.base.repository",
+        "peekOfCode": "T = TypeVar(\"T\", bound=Base)\n@dataclass\nclass PagedResult:\n    \"\"\"Paginated query result — matches FastForge's IPagedResult.\"\"\"\n    items: list\n    total: int\n    page: int\n    page_size: int\n    @property\n    def total_pages(self) -> int:",
+        "detail": "backend.fastforge_core.base.repository",
+        "documentation": {}
+    },
+    {
+        "label": "init_alembic",
+        "kind": 2,
+        "importPath": "backend.fastforge_core.db.alembic_utils",
+        "description": "backend.fastforge_core.db.alembic_utils",
+        "peekOfCode": "def init_alembic(backend_path: str) -> bool:\n    \"\"\"\n    Initialize Alembic in the backend project.\n    Creates alembic.ini and migrations/ directory.\n    \"\"\"\n    alembic_ini = Path(backend_path) / \"alembic.ini\"\n    migrations_dir = Path(backend_path) / \"migrations\"\n    if alembic_ini.exists():\n        print(\"  ⏭ Alembic already initialized\")\n        return True",
+        "detail": "backend.fastforge_core.db.alembic_utils",
+        "documentation": {}
+    },
+    {
+        "label": "generate_migration",
+        "kind": 2,
+        "importPath": "backend.fastforge_core.db.alembic_utils",
+        "description": "backend.fastforge_core.db.alembic_utils",
+        "peekOfCode": "def generate_migration(backend_path: str, message: str) -> bool:\n    \"\"\"\n    Auto-generate a migration by comparing models to database.\n    Equivalent to: alembic revision --autogenerate -m \"message\"\n    \"\"\"\n    try:\n        result = subprocess.run(\n            [\"alembic\", \"revision\", \"--autogenerate\", \"-m\", message],\n            cwd=backend_path,\n            capture_output=True,",
+        "detail": "backend.fastforge_core.db.alembic_utils",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations",
+        "kind": 2,
+        "importPath": "backend.fastforge_core.db.alembic_utils",
+        "description": "backend.fastforge_core.db.alembic_utils",
+        "peekOfCode": "def run_migrations(backend_path: str, direction: str = \"up\") -> bool:\n    \"\"\"Run migrations up or down.\"\"\"\n    cmd = [\"alembic\", \"upgrade\", \"head\"] if direction == \"up\" else [\"alembic\", \"downgrade\", \"-1\"]\n    try:\n        result = subprocess.run(cmd, cwd=backend_path, capture_output=True, text=True)\n        if result.returncode == 0:\n            print(f\"  ✅ Migration {'applied' if direction == 'up' else 'reverted'}\")\n            return True\n        else:\n            print(f\"  ⚠ Migration failed: {result.stderr}\")",
+        "detail": "backend.fastforge_core.db.alembic_utils",
+        "documentation": {}
+    },
+    {
+        "label": "target_metadata",
+        "kind": 5,
+        "importPath": "backend.fastforge_core.db.alembic_utils",
+        "description": "backend.fastforge_core.db.alembic_utils",
+        "peekOfCode": "target_metadata = Base.metadata\n# ── End FastForge Auto-Config ──────────────────────────────────────────────\n'''\n    content = env_path.read_text()\n    # Insert after the initial imports\n    if \"FastForge Auto-Config\" not in content:\n        content = content.replace(\n            \"target_metadata = None\",\n            patch,\n        )",
+        "detail": "backend.fastforge_core.db.alembic_utils",
+        "documentation": {}
+    },
+    {
+        "label": "DatabaseConfig",
+        "kind": 6,
+        "importPath": "backend.fastforge_core.db.session",
+        "description": "backend.fastforge_core.db.session",
+        "peekOfCode": "class DatabaseConfig:\n    \"\"\"Database configuration holder.\"\"\"\n    def __init__(\n        self,\n        url: str = \"postgresql://localhost/fastforge\",\n        echo: bool = False,\n        pool_size: int = 10,\n        max_overflow: int = 20,\n    ):\n        self.url = url",
+        "detail": "backend.fastforge_core.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "AuditLogMiddleware",
+        "kind": 6,
+        "importPath": "backend.fastforge_core.middleware.audit",
+        "description": "backend.fastforge_core.middleware.audit",
+        "peekOfCode": "class AuditLogMiddleware(BaseHTTPMiddleware):\n    \"\"\"\n    Logs every request with user, method, path, status, and duration.\n    Add to your app:\n        app.add_middleware(AuditLogMiddleware)\n    \"\"\"\n    async def dispatch(self, request: Request, call_next):\n        start = time.time()\n        # Extract user info if available\n        user_id = getattr(request.state, \"user_id\", \"anonymous\") if hasattr(request, \"state\") else \"anonymous\"",
+        "detail": "backend.fastforge_core.middleware.audit",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.fastforge_core.middleware.audit",
+        "description": "backend.fastforge_core.middleware.audit",
+        "peekOfCode": "logger = logging.getLogger(\"fastforge.audit\")\nclass AuditLogMiddleware(BaseHTTPMiddleware):\n    \"\"\"\n    Logs every request with user, method, path, status, and duration.\n    Add to your app:\n        app.add_middleware(AuditLogMiddleware)\n    \"\"\"\n    async def dispatch(self, request: Request, call_next):\n        start = time.time()\n        # Extract user info if available",
+        "detail": "backend.fastforge_core.middleware.audit",
+        "documentation": {}
+    },
+    {
+        "label": "BusinessException",
+        "kind": 6,
+        "importPath": "backend.fastforge_core.middleware.exceptions",
+        "description": "backend.fastforge_core.middleware.exceptions",
+        "peekOfCode": "class BusinessException(Exception):\n    \"\"\"\n    Base exception for business rule violations.\n    Usage:\n        raise BusinessException(\"Cannot delete product with active orders\")\n        raise BusinessException(\"Insufficient stock\", code=\"InsufficientStock\")\n    \"\"\"\n    def __init__(self, message: str, code: str = \"BusinessError\", details: str = None):\n        self.message = message\n        self.code = code",
+        "detail": "backend.fastforge_core.middleware.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "EntityNotFoundException",
+        "kind": 6,
+        "importPath": "backend.fastforge_core.middleware.exceptions",
+        "description": "backend.fastforge_core.middleware.exceptions",
+        "peekOfCode": "class EntityNotFoundException(BusinessException):\n    \"\"\"Raised when an entity is not found.\"\"\"\n    def __init__(self, entity_name: str, entity_id):\n        super().__init__(\n            message=f\"{entity_name} with id {entity_id} not found\",\n            code=\"NotFound\",\n        )\nclass UnauthorizedException(BusinessException):\n    \"\"\"Raised when user is not authenticated.\"\"\"\n    def __init__(self, message: str = \"Authentication required\"):",
+        "detail": "backend.fastforge_core.middleware.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "UnauthorizedException",
+        "kind": 6,
+        "importPath": "backend.fastforge_core.middleware.exceptions",
+        "description": "backend.fastforge_core.middleware.exceptions",
+        "peekOfCode": "class UnauthorizedException(BusinessException):\n    \"\"\"Raised when user is not authenticated.\"\"\"\n    def __init__(self, message: str = \"Authentication required\"):\n        super().__init__(message=message, code=\"Unauthorized\")\nclass ForbiddenException(BusinessException):\n    \"\"\"Raised when user lacks permission.\"\"\"\n    def __init__(self, message: str = \"Permission denied\"):\n        super().__init__(message=message, code=\"Forbidden\")\ndef register_exception_handlers(app: FastAPI, debug: bool = False):\n    \"\"\"",
+        "detail": "backend.fastforge_core.middleware.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "ForbiddenException",
+        "kind": 6,
+        "importPath": "backend.fastforge_core.middleware.exceptions",
+        "description": "backend.fastforge_core.middleware.exceptions",
+        "peekOfCode": "class ForbiddenException(BusinessException):\n    \"\"\"Raised when user lacks permission.\"\"\"\n    def __init__(self, message: str = \"Permission denied\"):\n        super().__init__(message=message, code=\"Forbidden\")\ndef register_exception_handlers(app: FastAPI, debug: bool = False):\n    \"\"\"\n    Register all exception handlers on the FastAPI app.\n    Call this in your main.py after creating the app.\n    \"\"\"\n    @app.exception_handler(BusinessException)",
+        "detail": "backend.fastforge_core.middleware.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "register_exception_handlers",
+        "kind": 2,
+        "importPath": "backend.fastforge_core.middleware.exceptions",
+        "description": "backend.fastforge_core.middleware.exceptions",
+        "peekOfCode": "def register_exception_handlers(app: FastAPI, debug: bool = False):\n    \"\"\"\n    Register all exception handlers on the FastAPI app.\n    Call this in your main.py after creating the app.\n    \"\"\"\n    @app.exception_handler(BusinessException)\n    async def business_exception_handler(request: Request, exc: BusinessException):\n        status_code = status.HTTP_400_BAD_REQUEST\n        if exc.code == \"NotFound\":\n            status_code = status.HTTP_404_NOT_FOUND",
+        "detail": "backend.fastforge_core.middleware.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.fastforge_core.middleware.exceptions",
+        "description": "backend.fastforge_core.middleware.exceptions",
+        "peekOfCode": "logger = logging.getLogger(\"fastforge\")\nclass BusinessException(Exception):\n    \"\"\"\n    Base exception for business rule violations.\n    Usage:\n        raise BusinessException(\"Cannot delete product with active orders\")\n        raise BusinessException(\"Insufficient stock\", code=\"InsufficientStock\")\n    \"\"\"\n    def __init__(self, message: str, code: str = \"BusinessError\", details: str = None):\n        self.message = message",
+        "detail": "backend.fastforge_core.middleware.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "backend.fastforge_core.modules.identity.models",
+        "description": "backend.fastforge_core.modules.identity.models",
+        "peekOfCode": "class User(FullAuditedEntity):\n    \"\"\"Built-in user entity.\"\"\"\n    __tablename__ = \"fastforge_users\"\n    email = Column(String(320), unique=True, nullable=False, index=True)\n    username = Column(String(100), unique=True, nullable=False, index=True)\n    password_hash = Column(String(255), nullable=False)\n    full_name = Column(String(200), nullable=True)\n    is_active = Column(Boolean, default=True, nullable=False)\n    is_email_confirmed = Column(Boolean, default=False, nullable=False)\n    tenant_id = Column(String(50), nullable=True, index=True)",
+        "detail": "backend.fastforge_core.modules.identity.models",
+        "documentation": {}
+    },
+    {
+        "label": "Role",
+        "kind": 6,
+        "importPath": "backend.fastforge_core.modules.identity.models",
+        "description": "backend.fastforge_core.modules.identity.models",
+        "peekOfCode": "class Role(FullAuditedEntity):\n    \"\"\"Built-in role entity.\"\"\"\n    __tablename__ = \"fastforge_roles\"\n    name = Column(String(100), unique=True, nullable=False, index=True)\n    display_name = Column(String(200), nullable=True)\n    is_default = Column(Boolean, default=False, nullable=False)\n    is_static = Column(Boolean, default=False, nullable=False)  # Cannot be deleted\n    tenant_id = Column(String(50), nullable=True, index=True)\n    # Relationships\n    users = relationship(\"User\", secondary=user_roles, back_populates=\"roles\")",
+        "detail": "backend.fastforge_core.modules.identity.models",
+        "documentation": {}
+    },
+    {
+        "label": "user_roles",
+        "kind": 5,
+        "importPath": "backend.fastforge_core.modules.identity.models",
+        "description": "backend.fastforge_core.modules.identity.models",
+        "peekOfCode": "user_roles = Table(\n    \"fastforge_user_roles\",\n    Base.metadata,\n    Column(\"user_id\", Integer, ForeignKey(\"fastforge_users.id\"), primary_key=True),\n    Column(\"role_id\", Integer, ForeignKey(\"fastforge_roles.id\"), primary_key=True),\n)\n# Many-to-many: roles ↔ permissions\nrole_permissions = Table(\n    \"fastforge_role_permissions\",\n    Base.metadata,",
+        "detail": "backend.fastforge_core.modules.identity.models",
+        "documentation": {}
+    },
+    {
+        "label": "role_permissions",
+        "kind": 5,
+        "importPath": "backend.fastforge_core.modules.identity.models",
+        "description": "backend.fastforge_core.modules.identity.models",
+        "peekOfCode": "role_permissions = Table(\n    \"fastforge_role_permissions\",\n    Base.metadata,\n    Column(\"role_id\", Integer, ForeignKey(\"fastforge_roles.id\"), primary_key=True),\n    Column(\"permission\", String(200), primary_key=True),\n)\nclass User(FullAuditedEntity):\n    \"\"\"Built-in user entity.\"\"\"\n    __tablename__ = \"fastforge_users\"\n    email = Column(String(320), unique=True, nullable=False, index=True)",
+        "detail": "backend.fastforge_core.modules.identity.models",
+        "documentation": {}
+    },
+    {
+        "label": "create_identity_router",
+        "kind": 2,
+        "importPath": "backend.fastforge_core.modules.identity.router",
+        "description": "backend.fastforge_core.modules.identity.router",
+        "peekOfCode": "def create_identity_router(\n    jwt_service: JwtService,\n    get_db=None,\n    prefix: str = \"\",\n) -> APIRouter:\n    \"\"\"\n    Factory that creates the identity router with the given JWT service.\n    Usage:\n        from fastforge_core.modules.identity import create_identity_router\n        router = create_identity_router(jwt_service)",
+        "detail": "backend.fastforge_core.modules.identity.router",
+        "documentation": {}
+    },
+    {
+        "label": "LoginRequest",
+        "kind": 6,
+        "importPath": "backend.fastforge_core.modules.identity.schemas",
+        "description": "backend.fastforge_core.modules.identity.schemas",
+        "peekOfCode": "class LoginRequest(BaseModel):\n    email: str\n    password: str\nclass RegisterRequest(BaseModel):\n    email: str\n    username: str\n    password: str = Field(..., min_length=6)\n    full_name: Optional[str] = None\nclass TokenResponse(BaseModel):\n    access_token: str",
+        "detail": "backend.fastforge_core.modules.identity.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterRequest",
+        "kind": 6,
+        "importPath": "backend.fastforge_core.modules.identity.schemas",
+        "description": "backend.fastforge_core.modules.identity.schemas",
+        "peekOfCode": "class RegisterRequest(BaseModel):\n    email: str\n    username: str\n    password: str = Field(..., min_length=6)\n    full_name: Optional[str] = None\nclass TokenResponse(BaseModel):\n    access_token: str\n    refresh_token: str\n    token_type: str = \"bearer\"\n    expires_in: int",
+        "detail": "backend.fastforge_core.modules.identity.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "TokenResponse",
+        "kind": 6,
+        "importPath": "backend.fastforge_core.modules.identity.schemas",
+        "description": "backend.fastforge_core.modules.identity.schemas",
+        "peekOfCode": "class TokenResponse(BaseModel):\n    access_token: str\n    refresh_token: str\n    token_type: str = \"bearer\"\n    expires_in: int\n    user: \"UserResponse\"\nclass RefreshRequest(BaseModel):\n    refresh_token: str\n# ─── User ────────────────────────────────────────────────────────────────────\nclass UserResponse(BaseModel):",
+        "detail": "backend.fastforge_core.modules.identity.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "RefreshRequest",
+        "kind": 6,
+        "importPath": "backend.fastforge_core.modules.identity.schemas",
+        "description": "backend.fastforge_core.modules.identity.schemas",
+        "peekOfCode": "class RefreshRequest(BaseModel):\n    refresh_token: str\n# ─── User ────────────────────────────────────────────────────────────────────\nclass UserResponse(BaseModel):\n    id: int\n    email: str\n    username: str\n    full_name: Optional[str] = None\n    is_active: bool\n    roles: List[str] = []",
+        "detail": "backend.fastforge_core.modules.identity.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "UserResponse",
+        "kind": 6,
+        "importPath": "backend.fastforge_core.modules.identity.schemas",
+        "description": "backend.fastforge_core.modules.identity.schemas",
+        "peekOfCode": "class UserResponse(BaseModel):\n    id: int\n    email: str\n    username: str\n    full_name: Optional[str] = None\n    is_active: bool\n    roles: List[str] = []\n    permissions: List[str] = []\n    created_at: datetime\n    model_config = ConfigDict(from_attributes=True)",
+        "detail": "backend.fastforge_core.modules.identity.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "UserUpdate",
+        "kind": 6,
+        "importPath": "backend.fastforge_core.modules.identity.schemas",
+        "description": "backend.fastforge_core.modules.identity.schemas",
+        "peekOfCode": "class UserUpdate(BaseModel):\n    email: Optional[str] = None\n    username: Optional[str] = None\n    full_name: Optional[str] = None\n    is_active: Optional[bool] = None\nclass ChangePasswordRequest(BaseModel):\n    current_password: str\n    new_password: str = Field(..., min_length=6)\nclass UserListResponse(BaseModel):\n    items: List[UserResponse]",
+        "detail": "backend.fastforge_core.modules.identity.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ChangePasswordRequest",
+        "kind": 6,
+        "importPath": "backend.fastforge_core.modules.identity.schemas",
+        "description": "backend.fastforge_core.modules.identity.schemas",
+        "peekOfCode": "class ChangePasswordRequest(BaseModel):\n    current_password: str\n    new_password: str = Field(..., min_length=6)\nclass UserListResponse(BaseModel):\n    items: List[UserResponse]\n    total: int\n    page: int\n    page_size: int\n# ─── Role ────────────────────────────────────────────────────────────────────\nclass RoleCreate(BaseModel):",
+        "detail": "backend.fastforge_core.modules.identity.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "UserListResponse",
+        "kind": 6,
+        "importPath": "backend.fastforge_core.modules.identity.schemas",
+        "description": "backend.fastforge_core.modules.identity.schemas",
+        "peekOfCode": "class UserListResponse(BaseModel):\n    items: List[UserResponse]\n    total: int\n    page: int\n    page_size: int\n# ─── Role ────────────────────────────────────────────────────────────────────\nclass RoleCreate(BaseModel):\n    name: str\n    display_name: Optional[str] = None\n    permissions: List[str] = []",
+        "detail": "backend.fastforge_core.modules.identity.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "RoleCreate",
+        "kind": 6,
+        "importPath": "backend.fastforge_core.modules.identity.schemas",
+        "description": "backend.fastforge_core.modules.identity.schemas",
+        "peekOfCode": "class RoleCreate(BaseModel):\n    name: str\n    display_name: Optional[str] = None\n    permissions: List[str] = []\nclass RoleUpdate(BaseModel):\n    display_name: Optional[str] = None\n    permissions: Optional[List[str]] = None\nclass RoleResponse(BaseModel):\n    id: int\n    name: str",
+        "detail": "backend.fastforge_core.modules.identity.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "RoleUpdate",
+        "kind": 6,
+        "importPath": "backend.fastforge_core.modules.identity.schemas",
+        "description": "backend.fastforge_core.modules.identity.schemas",
+        "peekOfCode": "class RoleUpdate(BaseModel):\n    display_name: Optional[str] = None\n    permissions: Optional[List[str]] = None\nclass RoleResponse(BaseModel):\n    id: int\n    name: str\n    display_name: Optional[str]\n    is_default: bool\n    permissions: List[str] = []\n    model_config = ConfigDict(from_attributes=True)",
+        "detail": "backend.fastforge_core.modules.identity.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "RoleResponse",
+        "kind": 6,
+        "importPath": "backend.fastforge_core.modules.identity.schemas",
+        "description": "backend.fastforge_core.modules.identity.schemas",
+        "peekOfCode": "class RoleResponse(BaseModel):\n    id: int\n    name: str\n    display_name: Optional[str]\n    is_default: bool\n    permissions: List[str] = []\n    model_config = ConfigDict(from_attributes=True)",
+        "detail": "backend.fastforge_core.modules.identity.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "IdentityService",
+        "kind": 6,
+        "importPath": "backend.fastforge_core.modules.identity.service",
+        "description": "backend.fastforge_core.modules.identity.service",
+        "peekOfCode": "class IdentityService:\n    \"\"\"\n    Identity module service.\n    Instantiate with a DB session and JWT service.\n    \"\"\"\n    def __init__(self, db: Session, jwt_service: JwtService, tenant_id: Optional[str] = None):\n        self.db = db\n        self.jwt = jwt_service\n        self.tenant_id = tenant_id\n    # ─── Auth ────────────────────────────────────────────────────────────",
+        "detail": "backend.fastforge_core.modules.identity.service",
+        "documentation": {}
+    },
+    {
+        "label": "Tenant",
+        "kind": 6,
+        "importPath": "backend.fastforge_core.modules.tenant_management.models",
+        "description": "backend.fastforge_core.modules.tenant_management.models",
+        "peekOfCode": "class Tenant(AuditedEntity):\n    \"\"\"Represents a tenant in a multi-tenant SaaS application.\"\"\"\n    __tablename__ = \"fastforge_tenants\"\n    name = Column(String(100), unique=True, nullable=False, index=True)\n    display_name = Column(String(200), nullable=True)\n    connection_string = Column(Text, nullable=True)  # For separate-DB tenants\n    is_active = Column(Boolean, default=True, nullable=False)\n    edition = Column(String(50), nullable=True)  # \"free\", \"pro\", \"enterprise\"\n    admin_email = Column(String(320), nullable=True)\nclass TenantFeature(AuditedEntity):",
+        "detail": "backend.fastforge_core.modules.tenant_management.models",
+        "documentation": {}
+    },
+    {
+        "label": "TenantFeature",
+        "kind": 6,
+        "importPath": "backend.fastforge_core.modules.tenant_management.models",
+        "description": "backend.fastforge_core.modules.tenant_management.models",
+        "peekOfCode": "class TenantFeature(AuditedEntity):\n    \"\"\"Per-tenant feature flags. FastForge's feature system.\"\"\"\n    __tablename__ = \"fastforge_tenant_features\"\n    tenant_id = Column(Integer, nullable=False, index=True)\n    feature_name = Column(String(200), nullable=False)\n    value = Column(String(500), nullable=True)  # \"true\"/\"false\" or a limit like \"100\"",
+        "detail": "backend.fastforge_core.modules.tenant_management.models",
+        "documentation": {}
+    },
+    {
+        "label": "TenantCreate",
+        "kind": 6,
+        "importPath": "backend.fastforge_core.modules.tenant_management.schemas",
+        "description": "backend.fastforge_core.modules.tenant_management.schemas",
+        "peekOfCode": "class TenantCreate(BaseModel):\n    name: str\n    display_name: Optional[str] = None\n    admin_email: Optional[str] = None\n    edition: Optional[str] = None\nclass TenantUpdate(BaseModel):\n    display_name: Optional[str] = None\n    is_active: Optional[bool] = None\n    edition: Optional[str] = None\n    admin_email: Optional[str] = None",
+        "detail": "backend.fastforge_core.modules.tenant_management.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "TenantUpdate",
+        "kind": 6,
+        "importPath": "backend.fastforge_core.modules.tenant_management.schemas",
+        "description": "backend.fastforge_core.modules.tenant_management.schemas",
+        "peekOfCode": "class TenantUpdate(BaseModel):\n    display_name: Optional[str] = None\n    is_active: Optional[bool] = None\n    edition: Optional[str] = None\n    admin_email: Optional[str] = None\nclass TenantResponse(BaseModel):\n    id: int\n    name: str\n    display_name: Optional[str]\n    is_active: bool",
+        "detail": "backend.fastforge_core.modules.tenant_management.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "TenantResponse",
+        "kind": 6,
+        "importPath": "backend.fastforge_core.modules.tenant_management.schemas",
+        "description": "backend.fastforge_core.modules.tenant_management.schemas",
+        "peekOfCode": "class TenantResponse(BaseModel):\n    id: int\n    name: str\n    display_name: Optional[str]\n    is_active: bool\n    edition: Optional[str]\n    admin_email: Optional[str]\n    created_at: datetime\n    model_config = ConfigDict(from_attributes=True)\nclass TenantListResponse(BaseModel):",
+        "detail": "backend.fastforge_core.modules.tenant_management.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "TenantListResponse",
+        "kind": 6,
+        "importPath": "backend.fastforge_core.modules.tenant_management.schemas",
+        "description": "backend.fastforge_core.modules.tenant_management.schemas",
+        "peekOfCode": "class TenantListResponse(BaseModel):\n    items: List[TenantResponse]\n    total: int\n    page: int\n    page_size: int\nclass TenantFeatureUpdate(BaseModel):\n    features: dict[str, str]  # {\"MaxUsers\": \"50\", \"EnableExport\": \"true\"}",
+        "detail": "backend.fastforge_core.modules.tenant_management.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "TenantFeatureUpdate",
+        "kind": 6,
+        "importPath": "backend.fastforge_core.modules.tenant_management.schemas",
+        "description": "backend.fastforge_core.modules.tenant_management.schemas",
+        "peekOfCode": "class TenantFeatureUpdate(BaseModel):\n    features: dict[str, str]  # {\"MaxUsers\": \"50\", \"EnableExport\": \"true\"}",
+        "detail": "backend.fastforge_core.modules.tenant_management.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "TenantService",
+        "kind": 6,
+        "importPath": "backend.fastforge_core.modules.tenant_management.service",
+        "description": "backend.fastforge_core.modules.tenant_management.service",
+        "peekOfCode": "class TenantService:\n    def __init__(self, db: Session):\n        self.db = db\n    def get(self, id: int) -> TenantResponse:\n        t = self.db.query(Tenant).filter(Tenant.id == id).first()\n        if not t:\n            raise HTTPException(status_code=404, detail=\"Tenant not found\")\n        return TenantResponse.model_validate(t)\n    def get_by_name(self, name: str) -> Optional[TenantResponse]:\n        t = self.db.query(Tenant).filter(Tenant.name == name).first()",
+        "detail": "backend.fastforge_core.modules.tenant_management.service",
+        "documentation": {}
+    },
+    {
+        "label": "create_tenant_router",
+        "kind": 2,
+        "importPath": "backend.fastforge_core.modules.tenant_management.service",
+        "description": "backend.fastforge_core.modules.tenant_management.service",
+        "peekOfCode": "def create_tenant_router(get_db) -> APIRouter:\n    \"\"\"Factory to create the tenant management router.\"\"\"\n    router = APIRouter(tags=[\"Tenant Management\"])\n    def _svc(db: Session = Depends(get_db)) -> TenantService:\n        return TenantService(db)\n    @router.get(\"/\", response_model=TenantListResponse)\n    def list_tenants(page: int = Query(1), page_size: int = Query(20), search: Optional[str] = None, svc: TenantService = Depends(_svc)):\n        return svc.get_list(page, page_size, search)\n    @router.get(\"/{id}\", response_model=TenantResponse)\n    def get_tenant(id: int, svc: TenantService = Depends(_svc)):",
+        "detail": "backend.fastforge_core.modules.tenant_management.service",
+        "documentation": {}
+    },
+    {
+        "label": "SettingValue",
+        "kind": 6,
+        "importPath": "backend.fastforge_core.settings.app_settings",
+        "description": "backend.fastforge_core.settings.app_settings",
+        "peekOfCode": "class SettingValue(Base):\n    \"\"\"Stores a single setting value.\"\"\"\n    __tablename__ = \"fastforge_settings\"\n    id = Column(Integer, primary_key=True, autoincrement=True)\n    name = Column(String(200), nullable=False, index=True)\n    value = Column(Text, nullable=True)\n    provider_name = Column(String(50), nullable=False, default=\"G\")  # G=Global, T=Tenant, U=User\n    provider_key = Column(String(100), nullable=True)  # tenant_id or user_id\nclass AppSettings:\n    \"\"\"",
+        "detail": "backend.fastforge_core.settings.app_settings",
+        "documentation": {}
+    },
+    {
+        "label": "AppSettings",
+        "kind": 6,
+        "importPath": "backend.fastforge_core.settings.app_settings",
+        "description": "backend.fastforge_core.settings.app_settings",
+        "peekOfCode": "class AppSettings:\n    \"\"\"\n    Settings manager with hierarchical resolution:\n    User setting > Tenant setting > Global setting > Default\n    \"\"\"\n    def __init__(self, db: Session):\n        self.db = db\n    def get(\n        self,\n        name: str,",
+        "detail": "backend.fastforge_core.settings.app_settings",
+        "documentation": {}
+    },
+    {
+        "label": "BackgroundJob",
+        "kind": 6,
+        "importPath": "backend.fastforge_core.background",
+        "description": "backend.fastforge_core.background",
+        "peekOfCode": "class BackgroundJob(ABC):\n    \"\"\"\n    Base class for background jobs.\n    Override execute() with your job logic.\n    \"\"\"\n    @abstractmethod\n    def execute(self, **kwargs):\n        \"\"\"Implement your job logic here.\"\"\"\n        pass\n    def on_error(self, error: Exception, **kwargs):",
+        "detail": "backend.fastforge_core.background",
+        "documentation": {}
+    },
+    {
+        "label": "BackgroundJobManager",
+        "kind": 6,
+        "importPath": "backend.fastforge_core.background",
+        "description": "backend.fastforge_core.background",
+        "peekOfCode": "class BackgroundJobManager:\n    \"\"\"\n    Manages background job execution.\n    Default mode: runs jobs synchronously (suitable for dev/testing).\n    Production: swap the executor for Celery/ARQ integration.\n    \"\"\"\n    def __init__(self):\n        self._registry: dict[str, Type[BackgroundJob]] = {}\n        self._history: list[dict] = []\n    def register(self, job_class: Type[BackgroundJob]):",
+        "detail": "backend.fastforge_core.background",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.fastforge_core.background",
+        "description": "backend.fastforge_core.background",
+        "peekOfCode": "logger = logging.getLogger(\"fastforge.jobs\")\nclass BackgroundJob(ABC):\n    \"\"\"\n    Base class for background jobs.\n    Override execute() with your job logic.\n    \"\"\"\n    @abstractmethod\n    def execute(self, **kwargs):\n        \"\"\"Implement your job logic here.\"\"\"\n        pass",
+        "detail": "backend.fastforge_core.background",
+        "documentation": {}
+    },
+    {
+        "label": "job_manager",
+        "kind": 5,
+        "importPath": "backend.fastforge_core.background",
+        "description": "backend.fastforge_core.background",
+        "peekOfCode": "job_manager = BackgroundJobManager()",
+        "detail": "backend.fastforge_core.background",
+        "documentation": {}
+    },
+    {
+        "label": "DomainEvent",
+        "kind": 6,
+        "importPath": "backend.fastforge_core.events",
+        "description": "backend.fastforge_core.events",
+        "peekOfCode": "class DomainEvent:\n    \"\"\"\n    Base class for domain events.\n    Subclass with your event data as attributes.\n    \"\"\"\n    def __init__(self, **kwargs):\n        self.timestamp = datetime.now(timezone.utc)\n        for key, value in kwargs.items():\n            setattr(self, key, value)\n    def __repr__(self):",
+        "detail": "backend.fastforge_core.events",
+        "documentation": {}
+    },
+    {
+        "label": "EventBus",
+        "kind": 6,
+        "importPath": "backend.fastforge_core.events",
+        "description": "backend.fastforge_core.events",
+        "peekOfCode": "class EventBus:\n    \"\"\"\n    Simple synchronous event bus.\n    For distributed events, extend this with Redis/RabbitMQ publishing.\n    \"\"\"\n    def __init__(self):\n        self._handlers: dict[Type[DomainEvent], list[Callable]] = {}\n        self._history: list[dict] = []\n    def on(self, event_type: Type[DomainEvent]):\n        \"\"\"",
+        "detail": "backend.fastforge_core.events",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.fastforge_core.events",
+        "description": "backend.fastforge_core.events",
+        "peekOfCode": "logger = logging.getLogger(\"fastforge.events\")\nclass DomainEvent:\n    \"\"\"\n    Base class for domain events.\n    Subclass with your event data as attributes.\n    \"\"\"\n    def __init__(self, **kwargs):\n        self.timestamp = datetime.now(timezone.utc)\n        for key, value in kwargs.items():\n            setattr(self, key, value)",
+        "detail": "backend.fastforge_core.events",
+        "documentation": {}
+    },
+    {
+        "label": "event_bus",
+        "kind": 5,
+        "importPath": "backend.fastforge_core.events",
+        "description": "backend.fastforge_core.events",
+        "peekOfCode": "event_bus = EventBus()",
+        "detail": "backend.fastforge_core.events",
+        "documentation": {}
+    },
+    {
+        "label": "Settings",
+        "kind": 6,
+        "importPath": "cli.cmd_init",
+        "description": "cli.cmd_init",
+        "peekOfCode": "class Settings(BaseSettings):\n    APP_NAME: str = \"{project_name}\"\n    DEBUG: bool = True\n    DATABASE_URL: str = \"{db_url}\"\n    API_PREFIX: str = \"/api/v1\"\n    CORS_ORIGINS: list[str] = [\"http://localhost:5173\", \"http://localhost:3000\"]\n    JWT_SECRET: str = \"change-this-in-production\"\n    JWT_ALGORITHM: str = \"HS256\"\n    JWT_EXPIRE_MINUTES: int = 60\n    class Config:",
+        "detail": "cli.cmd_init",
+        "documentation": {}
+    },
+    {
+        "label": "run_init",
+        "kind": 2,
+        "importPath": "cli.cmd_init",
+        "description": "cli.cmd_init",
+        "peekOfCode": "def run_init(project_name: str, db: str = \"postgres\", with_react: bool = False):\n    \"\"\"Scaffold a new FastForge project. Backend only by default.\"\"\"\n    print(f\"\\n⚡ FastForge — Initializing project: {project_name}\\n\")\n    root = Path(project_name)\n    be = root / \"backend\"\n    _check_prerequisites(require_node=with_react)\n    # ══════════════════════════════════════════════════════════════════════\n    #  BACKEND\n    # ══════════════════════════════════════════════════════════════════════\n    print(\"📦 Backend...\")",
+        "detail": "cli.cmd_init",
+        "documentation": {}
+    },
+    {
+        "label": "health",
+        "kind": 2,
+        "importPath": "cli.cmd_init",
+        "description": "cli.cmd_init",
+        "peekOfCode": "def health():\n    return {{\"status\": \"ok\", \"app\": settings.APP_NAME}}\n''')\n    _write(be / \".env\", f'''APP_NAME=\"{project_name}\"\nDEBUG=true\nDATABASE_URL={db_url}\nJWT_SECRET=change-this-in-production-{datetime.now().timestamp():.0f}\n''')\n    # ── pyproject.toml ───────────────────────────────────────────────────\n    db_dep = {",
+        "detail": "cli.cmd_init",
+        "documentation": {}
+    },
+    {
+        "label": "add_frontend",
+        "kind": 2,
+        "importPath": "cli.cmd_init",
+        "description": "cli.cmd_init",
+        "peekOfCode": "def add_frontend(config: dict, config_dir: Path):\n    \"\"\"Add React frontend to an existing FastForge project.\"\"\"\n    project_name = config.get(\"project\", \"my-app\")\n    fe = config_dir / \"frontend\"\n    print(f\"\\n⚡ FastForge — Adding React frontend to '{project_name}'\\n\")\n    _check_prerequisites(require_node=True, require_uv=False)\n    _scaffold_frontend(fe, project_name)\n    # Update config\n    config[\"paths\"][\"frontend\"] = str(fe.relative_to(config_dir))\n    config_file = config_dir / \"fastforge.json\"",
+        "detail": "cli.cmd_init",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "kind": 5,
+        "importPath": "cli.cmd_init",
+        "description": "cli.cmd_init",
+        "peekOfCode": "settings = Settings()\n''')\n    if db == \"mongodb\":\n        _write(be / \"app\" / \"db.py\", '''\"\"\"MongoDB connection.\"\"\"\nfrom motor.motor_asyncio import AsyncIOMotorClient\nfrom beanie import init_beanie\nfrom app.core.config import settings\nclient = AsyncIOMotorClient(settings.DATABASE_URL)\ndatabase = client.get_default_database()\nasync def init_db(document_models: list):",
+        "detail": "cli.cmd_init",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "cli.cmd_init",
+        "description": "cli.cmd_init",
+        "peekOfCode": "client = AsyncIOMotorClient(settings.DATABASE_URL)\ndatabase = client.get_default_database()\nasync def init_db(document_models: list):\n    \"\"\"Initialize Beanie with document models.\"\"\"\n    await init_beanie(database=database, document_models=document_models)\n''')\n    else:\n        _write(be / \"app\" / \"db.py\", '''\"\"\"Database session.\"\"\"\nfrom fastforge_core import DatabaseConfig\nfrom fastforge_core.base.entities import Base",
+        "detail": "cli.cmd_init",
+        "documentation": {}
+    },
+    {
+        "label": "database",
+        "kind": 5,
+        "importPath": "cli.cmd_init",
+        "description": "cli.cmd_init",
+        "peekOfCode": "database = client.get_default_database()\nasync def init_db(document_models: list):\n    \"\"\"Initialize Beanie with document models.\"\"\"\n    await init_beanie(database=database, document_models=document_models)\n''')\n    else:\n        _write(be / \"app\" / \"db.py\", '''\"\"\"Database session.\"\"\"\nfrom fastforge_core import DatabaseConfig\nfrom fastforge_core.base.entities import Base\nfrom app.core.config import settings",
+        "detail": "cli.cmd_init",
+        "documentation": {}
+    },
+    {
+        "label": "db_config",
+        "kind": 5,
+        "importPath": "cli.cmd_init",
+        "description": "cli.cmd_init",
+        "peekOfCode": "db_config = DatabaseConfig(url=settings.DATABASE_URL, echo=settings.DEBUG)\nget_db = db_config.get_db\n''')\n    _write(be / \"app\" / \"api\" / \"router.py\", '''\"\"\"Main API Router — auto-registers entity routes.\"\"\"\nfrom fastapi import APIRouter\napi_router = APIRouter()\n# FASTFORGE_ROUTER_IMPORTS\n# FASTFORGE_ROUTER_INCLUDES\n''')\n    _write(be / \"app\" / \"main.py\", f'''\"\"\"",
+        "detail": "cli.cmd_init",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "kind": 5,
+        "importPath": "cli.cmd_init",
+        "description": "cli.cmd_init",
+        "peekOfCode": "get_db = db_config.get_db\n''')\n    _write(be / \"app\" / \"api\" / \"router.py\", '''\"\"\"Main API Router — auto-registers entity routes.\"\"\"\nfrom fastapi import APIRouter\napi_router = APIRouter()\n# FASTFORGE_ROUTER_IMPORTS\n# FASTFORGE_ROUTER_INCLUDES\n''')\n    _write(be / \"app\" / \"main.py\", f'''\"\"\"\n{project_name} — FastAPI Application",
+        "detail": "cli.cmd_init",
+        "documentation": {}
+    },
+    {
+        "label": "api_router",
+        "kind": 5,
+        "importPath": "cli.cmd_init",
+        "description": "cli.cmd_init",
+        "peekOfCode": "api_router = APIRouter()\n# FASTFORGE_ROUTER_IMPORTS\n# FASTFORGE_ROUTER_INCLUDES\n''')\n    _write(be / \"app\" / \"main.py\", f'''\"\"\"\n{project_name} — FastAPI Application\nBuilt with FastForge Framework\n\"\"\"\nfrom fastapi import FastAPI\nfrom fastapi.middleware.cors import CORSMiddleware",
+        "detail": "cli.cmd_init",
+        "documentation": {}
+    },
+    {
+        "label": "jwt_service",
+        "kind": 5,
+        "importPath": "cli.cmd_init",
+        "description": "cli.cmd_init",
+        "peekOfCode": "jwt_service = JwtService(TokenConfig(\n    secret=settings.JWT_SECRET,\n    algorithm=settings.JWT_ALGORITHM,\n    access_expire_minutes=settings.JWT_EXPIRE_MINUTES,\n))\nBase.metadata.create_all(bind=db_config.engine)\n# Data seeding\ndb = next(db_config.get_db())\ntry:\n    seed_manager.run_all(db)",
+        "detail": "cli.cmd_init",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "cli.cmd_init",
+        "description": "cli.cmd_init",
+        "peekOfCode": "db = next(db_config.get_db())\ntry:\n    seed_manager.run_all(db)\nfinally:\n    db.close()\napp = FastAPI(\n    title=settings.APP_NAME,\n    docs_url=f\"{{settings.API_PREFIX}}/docs\",\n    openapi_url=f\"{{settings.API_PREFIX}}/openapi.json\",\n)",
+        "detail": "cli.cmd_init",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "cli.cmd_init",
+        "description": "cli.cmd_init",
+        "peekOfCode": "app = FastAPI(\n    title=settings.APP_NAME,\n    docs_url=f\"{{settings.API_PREFIX}}/docs\",\n    openapi_url=f\"{{settings.API_PREFIX}}/openapi.json\",\n)\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=settings.CORS_ORIGINS,\n    allow_credentials=True,\n    allow_methods=[\"*\"],",
+        "detail": "cli.cmd_init",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "cli.cmd_init",
+        "description": "cli.cmd_init",
+        "peekOfCode": "name = \"{project_name}-backend\"\nversion = \"0.1.0\"\ndescription = \"{project_name} backend — built with FastForge\"\nrequires-python = \">=3.10\"\ndependencies = [\n{deps}\n]\n[tool.uv]\ndev-dependencies = [\n    \"pytest>=8.0.0\",",
+        "detail": "cli.cmd_init",
+        "documentation": {}
+    },
+    {
+        "label": "version",
+        "kind": 5,
+        "importPath": "cli.cmd_init",
+        "description": "cli.cmd_init",
+        "peekOfCode": "version = \"0.1.0\"\ndescription = \"{project_name} backend — built with FastForge\"\nrequires-python = \">=3.10\"\ndependencies = [\n{deps}\n]\n[tool.uv]\ndev-dependencies = [\n    \"pytest>=8.0.0\",\n    \"httpx>=0.27.0\",",
+        "detail": "cli.cmd_init",
+        "documentation": {}
+    },
+    {
+        "label": "description",
+        "kind": 5,
+        "importPath": "cli.cmd_init",
+        "description": "cli.cmd_init",
+        "peekOfCode": "description = \"{project_name} backend — built with FastForge\"\nrequires-python = \">=3.10\"\ndependencies = [\n{deps}\n]\n[tool.uv]\ndev-dependencies = [\n    \"pytest>=8.0.0\",\n    \"httpx>=0.27.0\",\n]{core_source}",
+        "detail": "cli.cmd_init",
+        "documentation": {}
+    },
+    {
+        "label": "requires-python",
+        "kind": 5,
+        "importPath": "cli.cmd_init",
+        "description": "cli.cmd_init",
+        "peekOfCode": "requires-python = \">=3.10\"\ndependencies = [\n{deps}\n]\n[tool.uv]\ndev-dependencies = [\n    \"pytest>=8.0.0\",\n    \"httpx>=0.27.0\",\n]{core_source}\n''')",
+        "detail": "cli.cmd_init",
+        "documentation": {}
+    },
+    {
+        "label": "dependencies",
+        "kind": 5,
+        "importPath": "cli.cmd_init",
+        "description": "cli.cmd_init",
+        "peekOfCode": "dependencies = [\n{deps}\n]\n[tool.uv]\ndev-dependencies = [\n    \"pytest>=8.0.0\",\n    \"httpx>=0.27.0\",\n]{core_source}\n''')\n    # ── Config ────────────────────────────────────────────────────────────",
+        "detail": "cli.cmd_init",
+        "documentation": {}
+    },
+    {
+        "label": "dev-dependencies",
+        "kind": 5,
+        "importPath": "cli.cmd_init",
+        "description": "cli.cmd_init",
+        "peekOfCode": "dev-dependencies = [\n    \"pytest>=8.0.0\",\n    \"httpx>=0.27.0\",\n]{core_source}\n''')\n    # ── Config ────────────────────────────────────────────────────────────\n    paths = {\"backend\": str(be)}\n    config = {\n        \"project\": project_name,\n        \"version\": \"0.3.0\",",
+        "detail": "cli.cmd_init",
+        "documentation": {}
+    },
+    {
+        "label": "to_snake",
+        "kind": 2,
+        "importPath": "cli.field_mappings",
+        "description": "cli.field_mappings",
+        "peekOfCode": "def to_snake(name: str) -> str:\n    s = re.sub(r'(.)([A-Z][a-z]+)', r'\\1_\\2', name)\n    return re.sub(r'([a-z0-9])([A-Z])', r'\\1_\\2', s).lower().replace(\"-\", \"_\")\ndef to_pascal(name: str) -> str:\n    return \"\".join(w.capitalize() for w in re.split(r'[_\\-\\s]+', name))\ndef to_camel(name: str) -> str:\n    p = to_pascal(name)\n    return p[0].lower() + p[1:] if p else \"\"\ndef to_kebab(name: str) -> str:\n    return to_snake(name).replace(\"_\", \"-\")",
+        "detail": "cli.field_mappings",
+        "documentation": {}
+    },
+    {
+        "label": "to_pascal",
+        "kind": 2,
+        "importPath": "cli.field_mappings",
+        "description": "cli.field_mappings",
+        "peekOfCode": "def to_pascal(name: str) -> str:\n    return \"\".join(w.capitalize() for w in re.split(r'[_\\-\\s]+', name))\ndef to_camel(name: str) -> str:\n    p = to_pascal(name)\n    return p[0].lower() + p[1:] if p else \"\"\ndef to_kebab(name: str) -> str:\n    return to_snake(name).replace(\"_\", \"-\")\ndef pluralize(name: str) -> str:\n    if name.endswith(\"y\") and name[-2] not in \"aeiou\":\n        return name[:-1] + \"ies\"",
+        "detail": "cli.field_mappings",
+        "documentation": {}
+    },
+    {
+        "label": "to_camel",
+        "kind": 2,
+        "importPath": "cli.field_mappings",
+        "description": "cli.field_mappings",
+        "peekOfCode": "def to_camel(name: str) -> str:\n    p = to_pascal(name)\n    return p[0].lower() + p[1:] if p else \"\"\ndef to_kebab(name: str) -> str:\n    return to_snake(name).replace(\"_\", \"-\")\ndef pluralize(name: str) -> str:\n    if name.endswith(\"y\") and name[-2] not in \"aeiou\":\n        return name[:-1] + \"ies\"\n    if name.endswith((\"s\", \"sh\", \"ch\", \"x\", \"z\")):\n        return name + \"es\"",
+        "detail": "cli.field_mappings",
+        "documentation": {}
+    },
+    {
+        "label": "to_kebab",
+        "kind": 2,
+        "importPath": "cli.field_mappings",
+        "description": "cli.field_mappings",
+        "peekOfCode": "def to_kebab(name: str) -> str:\n    return to_snake(name).replace(\"_\", \"-\")\ndef pluralize(name: str) -> str:\n    if name.endswith(\"y\") and name[-2] not in \"aeiou\":\n        return name[:-1] + \"ies\"\n    if name.endswith((\"s\", \"sh\", \"ch\", \"x\", \"z\")):\n        return name + \"es\"\n    return name + \"s\"\n# ─── Field Parsing ───────────────────────────────────────────────────────────\ndef parse_fields(field_args: list[str]) -> list[dict]:",
+        "detail": "cli.field_mappings",
+        "documentation": {}
+    },
+    {
+        "label": "pluralize",
+        "kind": 2,
+        "importPath": "cli.field_mappings",
+        "description": "cli.field_mappings",
+        "peekOfCode": "def pluralize(name: str) -> str:\n    if name.endswith(\"y\") and name[-2] not in \"aeiou\":\n        return name[:-1] + \"ies\"\n    if name.endswith((\"s\", \"sh\", \"ch\", \"x\", \"z\")):\n        return name + \"es\"\n    return name + \"s\"\n# ─── Field Parsing ───────────────────────────────────────────────────────────\ndef parse_fields(field_args: list[str]) -> list[dict]:\n    \"\"\"Parse 'name:str' 'price:float' 'bio:text?' into structured dicts.\"\"\"\n    fields = []",
+        "detail": "cli.field_mappings",
+        "documentation": {}
+    },
+    {
+        "label": "parse_fields",
+        "kind": 2,
+        "importPath": "cli.field_mappings",
+        "description": "cli.field_mappings",
+        "peekOfCode": "def parse_fields(field_args: list[str]) -> list[dict]:\n    \"\"\"Parse 'name:str' 'price:float' 'bio:text?' into structured dicts.\"\"\"\n    fields = []\n    for f in field_args:\n        optional = f.endswith(\"?\")\n        f = f.rstrip(\"?\")\n        parts = f.split(\":\")\n        if len(parts) != 2:\n            print(f\"  ⚠ Skipping invalid field: '{f}' (use name:type)\")\n            continue",
+        "detail": "cli.field_mappings",
+        "documentation": {}
+    },
+    {
+        "label": "PYTHON_TYPES",
+        "kind": 5,
+        "importPath": "cli.field_mappings",
+        "description": "cli.field_mappings",
+        "peekOfCode": "PYTHON_TYPES = {\n    \"str\": \"str\", \"string\": \"str\",\n    \"int\": \"int\", \"integer\": \"int\",\n    \"float\": \"float\", \"decimal\": \"float\",\n    \"bool\": \"bool\", \"boolean\": \"bool\",\n    \"date\": \"date\", \"datetime\": \"datetime\",\n    \"text\": \"str\", \"email\": \"str\", \"uuid\": \"UUID\",\n}\nSQLALCHEMY_TYPES = {\n    \"str\": \"String(255)\", \"string\": \"String(255)\",",
+        "detail": "cli.field_mappings",
+        "documentation": {}
+    },
+    {
+        "label": "SQLALCHEMY_TYPES",
+        "kind": 5,
+        "importPath": "cli.field_mappings",
+        "description": "cli.field_mappings",
+        "peekOfCode": "SQLALCHEMY_TYPES = {\n    \"str\": \"String(255)\", \"string\": \"String(255)\",\n    \"int\": \"Integer\", \"integer\": \"Integer\",\n    \"float\": \"Float\", \"decimal\": \"Numeric(10, 2)\",\n    \"bool\": \"Boolean\", \"boolean\": \"Boolean\",\n    \"date\": \"Date\", \"datetime\": \"DateTime(timezone=True)\",\n    \"text\": \"Text\", \"email\": \"String(320)\", \"uuid\": \"UUID\",\n}\nSA_IMPORT_MAP = {\n    \"str\": \"String\", \"string\": \"String\",",
+        "detail": "cli.field_mappings",
+        "documentation": {}
+    },
+    {
+        "label": "SA_IMPORT_MAP",
+        "kind": 5,
+        "importPath": "cli.field_mappings",
+        "description": "cli.field_mappings",
+        "peekOfCode": "SA_IMPORT_MAP = {\n    \"str\": \"String\", \"string\": \"String\",\n    \"int\": \"Integer\", \"integer\": \"Integer\",\n    \"float\": \"Float\", \"decimal\": \"Numeric\",\n    \"bool\": \"Boolean\", \"boolean\": \"Boolean\",\n    \"date\": \"Date\", \"datetime\": \"DateTime\",\n    \"text\": \"Text\", \"email\": \"String\", \"uuid\": \"UUID\",\n}\n# ─── Name Conversions ────────────────────────────────────────────────────────\ndef to_snake(name: str) -> str:",
+        "detail": "cli.field_mappings",
+        "documentation": {}
+    },
+    {
+        "label": "generate_auth_provider",
+        "kind": 2,
+        "importPath": "cli.gen_auth",
+        "description": "cli.gen_auth",
+        "peekOfCode": "def generate_auth_provider() -> str:\n    \"\"\"Generate AuthProvider.tsx — the main auth context.\"\"\"\n    return '''/**\n * FastForge Auth Provider\n *\n * Generated by FastForge CLI — safe to customize.\n * This file is generated once and will NOT be overwritten.\n */\nimport React, { createContext, useContext, useState, useEffect, useCallback, useMemo } from \"react\";\nimport axios from \"axios\";",
+        "detail": "cli.gen_auth",
+        "documentation": {}
+    },
+    {
+        "label": "generate_permission_components",
+        "kind": 2,
+        "importPath": "cli.gen_auth",
+        "description": "cli.gen_auth",
+        "peekOfCode": "def generate_permission_components() -> str:\n    \"\"\"Generate permission guard components.\"\"\"\n    return '''/**\n * FastForge Permission Guards\n *\n * Generated by FastForge CLI — safe to customize.\n * permission checking for React.\n */\nimport React from \"react\";\nimport { useAuth } from \"./AuthProvider\";",
+        "detail": "cli.gen_auth",
+        "documentation": {}
+    },
+    {
+        "label": "{pascal}Create",
+        "kind": 6,
+        "importPath": "cli.gen_from_model",
+        "description": "cli.gen_from_model",
+        "peekOfCode": "class {pascal}Create(BaseModel):\n{chr(10).join(create_fields) if create_fields else \"    pass\"}\nclass {pascal}Update(BaseModel):\n{chr(10).join(update_fields) if update_fields else \"    pass\"}\nclass {pascal}Response(BaseModel):\n    id: int\n{chr(10).join(response_fields)}\n{audit_response}\n    model_config = ConfigDict(from_attributes=True)\nclass {pascal}ListResponse(BaseModel):",
+        "detail": "cli.gen_from_model",
+        "documentation": {}
+    },
+    {
+        "label": "{pascal}Update",
+        "kind": 6,
+        "importPath": "cli.gen_from_model",
+        "description": "cli.gen_from_model",
+        "peekOfCode": "class {pascal}Update(BaseModel):\n{chr(10).join(update_fields) if update_fields else \"    pass\"}\nclass {pascal}Response(BaseModel):\n    id: int\n{chr(10).join(response_fields)}\n{audit_response}\n    model_config = ConfigDict(from_attributes=True)\nclass {pascal}ListResponse(BaseModel):\n    items: List[{pascal}Response]\n    total: int",
+        "detail": "cli.gen_from_model",
+        "documentation": {}
+    },
+    {
+        "label": "{pascal}Response",
+        "kind": 6,
+        "importPath": "cli.gen_from_model",
+        "description": "cli.gen_from_model",
+        "peekOfCode": "class {pascal}Response(BaseModel):\n    id: int\n{chr(10).join(response_fields)}\n{audit_response}\n    model_config = ConfigDict(from_attributes=True)\nclass {pascal}ListResponse(BaseModel):\n    items: List[{pascal}Response]\n    total: int\n    page: int\n    page_size: int",
+        "detail": "cli.gen_from_model",
+        "documentation": {}
+    },
+    {
+        "label": "{pascal}ListResponse",
+        "kind": 6,
+        "importPath": "cli.gen_from_model",
+        "description": "cli.gen_from_model",
+        "peekOfCode": "class {pascal}ListResponse(BaseModel):\n    items: List[{pascal}Response]\n    total: int\n    page: int\n    page_size: int\n    total_pages: int\n'''\n    return _write_always(f\"{base_path}/app/schemas/{snake}.py\", content)\ndef _gen_permissions(snake, pascal, base_path) -> str:\n    content = f'''\"\"\"",
+        "detail": "cli.gen_from_model",
+        "documentation": {}
+    },
+    {
+        "label": "{pascal}Repository",
+        "kind": 6,
+        "importPath": "cli.gen_from_model",
+        "description": "cli.gen_from_model",
+        "peekOfCode": "class {pascal}Repository(GenericRepository[{pascal}]):\n    searchable_fields = [{\", \".join(search_fields)}]\n    default_sort_field = \"id\"\n    default_sort_order = \"desc\"\n'''\n    return _write_always(f\"{base_path}/app/repositories/{snake}_repository.py\", content)\ndef _gen_service(snake, pascal, info: ModelInfo, base_path, overwrite=False) -> str:\n    content = f'''\"\"\"\n{pascal} Service\nGenerated once — YOUR custom business logic goes here.",
+        "detail": "cli.gen_from_model",
+        "documentation": {}
+    },
+    {
+        "label": "{pascal}Service",
+        "kind": 6,
+        "importPath": "cli.gen_from_model",
+        "description": "cli.gen_from_model",
+        "peekOfCode": "class {pascal}Service(CrudAppService[{pascal}, {pascal}Create, {pascal}Update, {pascal}Response]):\n    def __init__(self, db: Session, user_id: Optional[str] = None, tenant_id: Optional[str] = None):\n        repo = {pascal}Repository(db, {pascal}, user_id, tenant_id)\n        super().__init__(repo, {pascal}Response)\n    # ─── Add your custom business logic below ────────────────────────────\n    #\n    # Override any of these hooks:\n    #\n    # def before_create(self, data: {pascal}Create):\n    #     \\\"\\\"\\\"Validate before creating.\\\"\\\"\\\"",
+        "detail": "cli.gen_from_model",
+        "documentation": {}
+    },
+    {
+        "label": "generate_from_model",
+        "kind": 2,
+        "importPath": "cli.gen_from_model",
+        "description": "cli.gen_from_model",
+        "peekOfCode": "def generate_from_model(model_path: str, base_path: str, force: bool = False) -> list[str]:\n    \"\"\"\n    Read a model file and generate all supporting files.\n    Args:\n        force: If True, overwrite service and router even if they exist.\n    \"\"\"\n    info = introspect_model_file(model_path)\n    if not info:\n        print(f\"  ❌ Could not parse model from: {model_path}\")\n        return []",
+        "detail": "cli.gen_from_model",
+        "documentation": {}
+    },
+    {
+        "label": "list_{plural}",
+        "kind": 2,
+        "importPath": "cli.gen_from_model",
+        "description": "cli.gen_from_model",
+        "peekOfCode": "def list_{plural}(\n    page: int = Query(1, ge=1),\n    page_size: int = Query(20, ge=1, le=100),\n    search: Optional[str] = Query(None),\n    sort_by: str = Query(\"id\"),\n    sort_order: str = Query(\"desc\", pattern=\"^(asc|desc)$\"),{filter_params_str}\n    service: {pascal}Service = Depends(_svc),\n):\n    return service.get_list(\n        page=page, page_size=page_size,",
+        "detail": "cli.gen_from_model",
+        "documentation": {}
+    },
+    {
+        "label": "get_{snake}",
+        "kind": 2,
+        "importPath": "cli.gen_from_model",
+        "description": "cli.gen_from_model",
+        "peekOfCode": "def get_{snake}(id: int, service: {pascal}Service = Depends(_svc)):\n    return service.get(id)\n@router.post(\"/\", response_model={pascal}Response, status_code=201)\ndef create_{snake}(data: {pascal}Create, service: {pascal}Service = Depends(_svc)):\n    return service.create(data)\n@router.put(\"/{{id}}\", response_model={pascal}Response)\ndef update_{snake}(id: int, data: {pascal}Update, service: {pascal}Service = Depends(_svc)):\n    return service.update(id, data)\n@router.delete(\"/{{id}}\")\ndef delete_{snake}(id: int, service: {pascal}Service = Depends(_svc)):",
+        "detail": "cli.gen_from_model",
+        "documentation": {}
+    },
+    {
+        "label": "create_{snake}",
+        "kind": 2,
+        "importPath": "cli.gen_from_model",
+        "description": "cli.gen_from_model",
+        "peekOfCode": "def create_{snake}(data: {pascal}Create, service: {pascal}Service = Depends(_svc)):\n    return service.create(data)\n@router.put(\"/{{id}}\", response_model={pascal}Response)\ndef update_{snake}(id: int, data: {pascal}Update, service: {pascal}Service = Depends(_svc)):\n    return service.update(id, data)\n@router.delete(\"/{{id}}\")\ndef delete_{snake}(id: int, service: {pascal}Service = Depends(_svc)):\n    return service.delete(id)\n@router.post(\"/bulk-delete\")\ndef bulk_delete_{plural}(ids: List[int], service: {pascal}Service = Depends(_svc)):",
+        "detail": "cli.gen_from_model",
+        "documentation": {}
+    },
+    {
+        "label": "update_{snake}",
+        "kind": 2,
+        "importPath": "cli.gen_from_model",
+        "description": "cli.gen_from_model",
+        "peekOfCode": "def update_{snake}(id: int, data: {pascal}Update, service: {pascal}Service = Depends(_svc)):\n    return service.update(id, data)\n@router.delete(\"/{{id}}\")\ndef delete_{snake}(id: int, service: {pascal}Service = Depends(_svc)):\n    return service.delete(id)\n@router.post(\"/bulk-delete\")\ndef bulk_delete_{plural}(ids: List[int], service: {pascal}Service = Depends(_svc)):\n    return service.bulk_delete(ids)\n# ─── Add your custom endpoints below ────────────────────────────────────\n#",
+        "detail": "cli.gen_from_model",
+        "documentation": {}
+    },
+    {
+        "label": "delete_{snake}",
+        "kind": 2,
+        "importPath": "cli.gen_from_model",
+        "description": "cli.gen_from_model",
+        "peekOfCode": "def delete_{snake}(id: int, service: {pascal}Service = Depends(_svc)):\n    return service.delete(id)\n@router.post(\"/bulk-delete\")\ndef bulk_delete_{plural}(ids: List[int], service: {pascal}Service = Depends(_svc)):\n    return service.bulk_delete(ids)\n# ─── Add your custom endpoints below ────────────────────────────────────\n#\n# @router.get(\"/stats\")\n# def get_{snake}_stats(service: {pascal}Service = Depends(_svc)):\n#     return {{\"total\": service.repo.count()}}",
+        "detail": "cli.gen_from_model",
+        "documentation": {}
+    },
+    {
+        "label": "bulk_delete_{plural}",
+        "kind": 2,
+        "importPath": "cli.gen_from_model",
+        "description": "cli.gen_from_model",
+        "peekOfCode": "def bulk_delete_{plural}(ids: List[int], service: {pascal}Service = Depends(_svc)):\n    return service.bulk_delete(ids)\n# ─── Add your custom endpoints below ────────────────────────────────────\n#\n# @router.get(\"/stats\")\n# def get_{snake}_stats(service: {pascal}Service = Depends(_svc)):\n#     return {{\"total\": service.repo.count()}}\n'''\n    writer = _write_always if overwrite else _write_once\n    return writer(f\"{base_path}/app/api/routes/{snake}.py\", content)",
+        "detail": "cli.gen_from_model",
+        "documentation": {}
+    },
+    {
+        "label": "PYDANTIC_TYPE_MAP",
+        "kind": 5,
+        "importPath": "cli.gen_from_model",
+        "description": "cli.gen_from_model",
+        "peekOfCode": "PYDANTIC_TYPE_MAP = {\n    \"str\": \"str\", \"int\": \"int\", \"float\": \"float\", \"bool\": \"bool\",\n    \"date\": \"date\", \"datetime\": \"datetime\", \"time\": \"time\",\n    \"UUID\": \"UUID\", \"dict\": \"dict\", \"bytes\": \"bytes\",\n}\ndef generate_from_model(model_path: str, base_path: str, force: bool = False) -> list[str]:\n    \"\"\"\n    Read a model file and generate all supporting files.\n    Args:\n        force: If True, overwrite service and router even if they exist.",
+        "detail": "cli.gen_from_model",
+        "documentation": {}
+    },
+    {
+        "label": "{pascal}Permissions",
+        "kind": 5,
+        "importPath": "cli.gen_from_model",
+        "description": "cli.gen_from_model",
+        "peekOfCode": "{pascal}Permissions = PermissionGroup(\"{pascal}\", [\n    \"Create\", \"Read\", \"Update\", \"Delete\", \"Export\",\n])\n'''\n    return _write_always(f\"{base_path}/app/permissions/{snake}.py\", content)\ndef _gen_repository(snake, pascal, info: ModelInfo, base_path) -> str:\n    search_fields = [f'\"{f}\"' for f in info.searchable_fields]\n    if not search_fields:\n        search_fields = [\n            f'\"{c.name}\"' for c in info.user_columns",
+        "detail": "cli.gen_from_model",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "cli.gen_from_model",
+        "description": "cli.gen_from_model",
+        "peekOfCode": "router = APIRouter(prefix=\"/{kebab_plural}\", tags=[\"{pascal}\"])\ndef _svc(db: Session = Depends(get_db)) -> {pascal}Service:\n    return {pascal}Service(db)\n@router.get(\"/\", response_model={pascal}ListResponse)\ndef list_{plural}(\n    page: int = Query(1, ge=1),\n    page_size: int = Query(20, ge=1, le=100),\n    search: Optional[str] = Query(None),\n    sort_by: str = Query(\"id\"),\n    sort_order: str = Query(\"desc\", pattern=\"^(asc|desc)$\"),{filter_params_str}",
+        "detail": "cli.gen_from_model",
+        "documentation": {}
+    },
+    {
+        "label": "generate_hooks",
+        "kind": 2,
+        "importPath": "cli.gen_hooks",
+        "description": "cli.gen_hooks",
+        "peekOfCode": "def generate_hooks(spec: ParsedSpec) -> dict[str, str]:\n    \"\"\"Generate hook files. Returns dict of {filename: content}.\"\"\"\n    files = {}\n    for group in spec.tag_groups:\n        filename = _tag_to_hooks_filename(group.tag)\n        content = _generate_hooks_file(group, spec)\n        files[filename] = content\n    # Also generate an index that re-exports everything\n    files[\"index.ts\"] = _generate_hooks_index(spec)\n    return files",
+        "detail": "cli.gen_hooks",
+        "documentation": {}
+    },
+    {
+        "label": "{pascal}",
+        "kind": 6,
+        "importPath": "cli.gen_model_stub",
+        "description": "cli.gen_model_stub",
+        "peekOfCode": "class {pascal}(FullAuditedEntity):\n    __tablename__ = \"{plural}\"\n    # ── Define your columns here ─────────────────────────────────────────\n    name = Column(String(255), nullable=False)\n    # Examples (uncomment / modify as needed):\n    # description = Column(Text, nullable=True)\n    # price = Column(Numeric(10, 2), nullable=False)\n    # quantity = Column(Integer, default=0)\n    # is_active = Column(Boolean, default=True, nullable=False)\n    # email = Column(String(320), nullable=False, unique=True)",
+        "detail": "cli.gen_model_stub",
+        "documentation": {}
+    },
+    {
+        "label": "generate_model_stub",
+        "kind": 2,
+        "importPath": "cli.gen_model_stub",
+        "description": "cli.gen_model_stub",
+        "peekOfCode": "def generate_model_stub(entity: str, base_path: str) -> str:\n    \"\"\"\n    Generate a model stub file for the user to fill in.\n    Returns the file path.\n    \"\"\"\n    snake = to_snake(entity)\n    pascal = to_pascal(entity)\n    plural = pluralize(snake)\n    content = f'''\"\"\"\n{pascal} Model",
+        "detail": "cli.gen_model_stub",
+        "documentation": {}
+    },
+    {
+        "label": "generate_services",
+        "kind": 2,
+        "importPath": "cli.gen_services",
+        "description": "cli.gen_services",
+        "peekOfCode": "def generate_services(spec: ParsedSpec) -> dict[str, str]:\n    \"\"\"\n    Generate service files. Returns dict of {filename: content}.\n    One file per tag group.\n    \"\"\"\n    files = {}\n    for group in spec.tag_groups:\n        filename = _tag_to_filename(group.tag)\n        content = _generate_service_file(group, spec)\n        files[filename] = content",
+        "detail": "cli.gen_services",
+        "documentation": {}
+    },
+    {
+        "label": "generate_api_client",
+        "kind": 2,
+        "importPath": "cli.gen_services",
+        "description": "cli.gen_services",
+        "peekOfCode": "def generate_api_client(spec: ParsedSpec) -> str:\n    \"\"\"Generate the base Axios API client configuration.\"\"\"\n    return f'''/**\n * FastForge API Client\n *\n * AUTO-GENERATED by FastForge CLI — do not edit manually.\n * Customize by editing fastforge.config.ts instead.\n */\nimport axios, {{ AxiosInstance, AxiosRequestConfig, AxiosError }} from \"axios\";\n// ─── Configuration ──────────────────────────────────────────────────────────",
+        "detail": "cli.gen_services",
+        "documentation": {}
+    },
+    {
+        "label": "generate_types",
+        "kind": 2,
+        "importPath": "cli.gen_types",
+        "description": "cli.gen_types",
+        "peekOfCode": "def generate_types(spec: ParsedSpec) -> str:\n    \"\"\"Generate a complete types.ts file from parsed schemas.\"\"\"\n    lines = [\n        \"/**\",\n        f\" * {spec.title} — API Types\",\n        f\" * Version: {spec.version}\",\n        \" *\",\n        \" * AUTO-GENERATED by FastForge CLI — do not edit manually.\",\n        f\" * Re-generate with: fastforge generate-client\",\n        \" */\",",
+        "detail": "cli.gen_types",
+        "documentation": {}
+    },
+    {
+        "label": "_TS_RESERVED",
+        "kind": 5,
+        "importPath": "cli.gen_types",
+        "description": "cli.gen_types",
+        "peekOfCode": "_TS_RESERVED = {\n    \"break\", \"case\", \"catch\", \"class\", \"const\", \"continue\", \"debugger\",\n    \"default\", \"delete\", \"do\", \"else\", \"enum\", \"export\", \"extends\",\n    \"false\", \"finally\", \"for\", \"function\", \"if\", \"import\", \"in\",\n    \"instanceof\", \"new\", \"null\", \"return\", \"super\", \"switch\", \"this\",\n    \"throw\", \"true\", \"try\", \"typeof\", \"var\", \"void\", \"while\", \"with\",\n    \"yield\", \"type\", \"interface\", \"implements\", \"package\", \"private\",\n    \"protected\", \"public\", \"static\",\n}",
+        "detail": "cli.gen_types",
+        "documentation": {}
+    },
+    {
+        "label": "run_generate_client",
+        "kind": 2,
+        "importPath": "cli.generate_client",
+        "description": "cli.generate_client",
+        "peekOfCode": "def run_generate_client(\n    input_source: str,\n    output_dir: str = DEFAULT_OUTPUT_DIR,\n    skip_auth: bool = False,\n    verbose: bool = False,\n):\n    \"\"\"\n    Main entry point for the generate-client command.\n    1. Load & parse the OpenAPI spec\n    2. Generate TypeScript types",
+        "detail": "cli.generate_client",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_OUTPUT_DIR",
+        "kind": 5,
+        "importPath": "cli.generate_client",
+        "description": "cli.generate_client",
+        "peekOfCode": "DEFAULT_OUTPUT_DIR = \"src/api\"\nGENERATED_MARKER = \"AUTO-GENERATED by FastForge CLI\"\n# Files that are generated ONCE and never overwritten\nPROTECTED_FILES = {\n    \"auth/AuthProvider.tsx\",\n    \"auth/PermissionGuards.tsx\",\n}\ndef run_generate_client(\n    input_source: str,\n    output_dir: str = DEFAULT_OUTPUT_DIR,",
+        "detail": "cli.generate_client",
+        "documentation": {}
+    },
+    {
+        "label": "GENERATED_MARKER",
+        "kind": 5,
+        "importPath": "cli.generate_client",
+        "description": "cli.generate_client",
+        "peekOfCode": "GENERATED_MARKER = \"AUTO-GENERATED by FastForge CLI\"\n# Files that are generated ONCE and never overwritten\nPROTECTED_FILES = {\n    \"auth/AuthProvider.tsx\",\n    \"auth/PermissionGuards.tsx\",\n}\ndef run_generate_client(\n    input_source: str,\n    output_dir: str = DEFAULT_OUTPUT_DIR,\n    skip_auth: bool = False,",
+        "detail": "cli.generate_client",
+        "documentation": {}
+    },
+    {
+        "label": "PROTECTED_FILES",
+        "kind": 5,
+        "importPath": "cli.generate_client",
+        "description": "cli.generate_client",
+        "peekOfCode": "PROTECTED_FILES = {\n    \"auth/AuthProvider.tsx\",\n    \"auth/PermissionGuards.tsx\",\n}\ndef run_generate_client(\n    input_source: str,\n    output_dir: str = DEFAULT_OUTPUT_DIR,\n    skip_auth: bool = False,\n    verbose: bool = False,\n):",
+        "detail": "cli.generate_client",
+        "documentation": {}
+    },
+    {
+        "label": "ColumnInfo",
+        "kind": 6,
+        "importPath": "cli.model_introspector",
+        "description": "cli.model_introspector",
+        "peekOfCode": "class ColumnInfo:\n    \"\"\"Extracted info about a single model column.\"\"\"\n    name: str\n    sa_type: str          # \"String(255)\", \"Integer\", \"Float\", etc.\n    python_type: str      # \"str\", \"int\", \"float\", etc.\n    nullable: bool = True\n    is_primary_key: bool = False\n    has_default: bool = False\n    is_foreign_key: bool = False\n    fk_target: Optional[str] = None  # \"users.id\"",
+        "detail": "cli.model_introspector",
+        "documentation": {}
+    },
+    {
+        "label": "ModelInfo",
+        "kind": 6,
+        "importPath": "cli.model_introspector",
+        "description": "cli.model_introspector",
+        "peekOfCode": "class ModelInfo:\n    \"\"\"Complete extracted info about a model class.\"\"\"\n    class_name: str\n    table_name: str\n    base_class: str       # \"FullAuditedEntity\", \"AuditedEntity\", \"Entity\", etc.\n    columns: list[ColumnInfo] = field(default_factory=list)\n    searchable_fields: list[str] = field(default_factory=list)\n    file_path: str = \"\"\n    @property\n    def has_soft_delete(self) -> bool:",
+        "detail": "cli.model_introspector",
+        "documentation": {}
+    },
+    {
+        "label": "introspect_model_file",
+        "kind": 2,
+        "importPath": "cli.model_introspector",
+        "description": "cli.model_introspector",
+        "peekOfCode": "def introspect_model_file(file_path: str) -> Optional[ModelInfo]:\n    \"\"\"\n    Parse a model .py file using AST and extract column information.\n    This is the primary introspection method — works without importing.\n    \"\"\"\n    path = Path(file_path)\n    if not path.exists():\n        return None\n    source = path.read_text()\n    try:",
+        "detail": "cli.model_introspector",
+        "documentation": {}
+    },
+    {
+        "label": "introspect_models_dir",
+        "kind": 2,
+        "importPath": "cli.model_introspector",
+        "description": "cli.model_introspector",
+        "peekOfCode": "def introspect_models_dir(models_dir: str) -> list[ModelInfo]:\n    \"\"\"Introspect all model files in a directory.\"\"\"\n    models = []\n    path = Path(models_dir)\n    if not path.exists():\n        return models\n    for py_file in sorted(path.glob(\"*.py\")):\n        if py_file.name.startswith(\"_\"):\n            continue\n        info = introspect_model_file(str(py_file))",
+        "detail": "cli.model_introspector",
+        "documentation": {}
+    },
+    {
+        "label": "SA_TO_PYTHON",
+        "kind": 5,
+        "importPath": "cli.model_introspector",
+        "description": "cli.model_introspector",
+        "peekOfCode": "SA_TO_PYTHON = {\n    \"String\": \"str\",\n    \"Text\": \"str\",\n    \"Integer\": \"int\",\n    \"BigInteger\": \"int\",\n    \"SmallInteger\": \"int\",\n    \"Float\": \"float\",\n    \"Numeric\": \"float\",\n    \"Boolean\": \"bool\",\n    \"Date\": \"date\",",
+        "detail": "cli.model_introspector",
+        "documentation": {}
+    },
+    {
+        "label": "PropertyInfo",
+        "kind": 6,
+        "importPath": "cli.openapi_parser",
+        "description": "cli.openapi_parser",
+        "peekOfCode": "class PropertyInfo:\n    name: str\n    ts_type: str\n    required: bool\n    description: str = \"\"\n    format: str = \"\"\n    is_array: bool = False\n    is_enum: bool = False\n    enum_values: list[str] = field(default_factory=list)\n    nullable: bool = False",
+        "detail": "cli.openapi_parser",
+        "documentation": {}
+    },
+    {
+        "label": "SchemaInfo",
+        "kind": 6,
+        "importPath": "cli.openapi_parser",
+        "description": "cli.openapi_parser",
+        "peekOfCode": "class SchemaInfo:\n    \"\"\"Represents a Pydantic model → TypeScript interface.\"\"\"\n    name: str\n    properties: list[PropertyInfo] = field(default_factory=list)\n    description: str = \"\"\n    is_enum: bool = False\n    enum_values: list[str] = field(default_factory=list)\n    extends: Optional[str] = None\n@dataclass\nclass ParameterInfo:",
+        "detail": "cli.openapi_parser",
+        "documentation": {}
+    },
+    {
+        "label": "ParameterInfo",
+        "kind": 6,
+        "importPath": "cli.openapi_parser",
+        "description": "cli.openapi_parser",
+        "peekOfCode": "class ParameterInfo:\n    name: str\n    ts_type: str\n    required: bool\n    location: str  # \"query\" | \"path\" | \"header\"\n    description: str = \"\"\n    default: Optional[str] = None\n@dataclass\nclass EndpointInfo:\n    \"\"\"Represents a single API endpoint → service function + hook.\"\"\"",
+        "detail": "cli.openapi_parser",
+        "documentation": {}
+    },
+    {
+        "label": "EndpointInfo",
+        "kind": 6,
+        "importPath": "cli.openapi_parser",
+        "description": "cli.openapi_parser",
+        "peekOfCode": "class EndpointInfo:\n    \"\"\"Represents a single API endpoint → service function + hook.\"\"\"\n    operation_id: str\n    method: str  # GET, POST, PUT, DELETE, PATCH\n    path: str\n    tag: str\n    summary: str = \"\"\n    description: str = \"\"\n    parameters: list[ParameterInfo] = field(default_factory=list)\n    request_body_type: Optional[str] = None",
+        "detail": "cli.openapi_parser",
+        "documentation": {}
+    },
+    {
+        "label": "TagGroup",
+        "kind": 6,
+        "importPath": "cli.openapi_parser",
+        "description": "cli.openapi_parser",
+        "peekOfCode": "class TagGroup:\n    \"\"\"Endpoints grouped by tag → one service file per tag.\"\"\"\n    tag: str\n    description: str = \"\"\n    endpoints: list[EndpointInfo] = field(default_factory=list)\n@dataclass\nclass ParsedSpec:\n    \"\"\"The complete parsed result — everything generators need.\"\"\"\n    title: str\n    version: str",
+        "detail": "cli.openapi_parser",
+        "documentation": {}
+    },
+    {
+        "label": "ParsedSpec",
+        "kind": 6,
+        "importPath": "cli.openapi_parser",
+        "description": "cli.openapi_parser",
+        "peekOfCode": "class ParsedSpec:\n    \"\"\"The complete parsed result — everything generators need.\"\"\"\n    title: str\n    version: str\n    base_url: str\n    schemas: list[SchemaInfo] = field(default_factory=list)\n    tag_groups: list[TagGroup] = field(default_factory=list)\n    all_endpoints: list[EndpointInfo] = field(default_factory=list)\n# ─── Type Mapping ────────────────────────────────────────────────────────────\ndef openapi_type_to_ts(schema: dict, spec: dict) -> str:",
+        "detail": "cli.openapi_parser",
+        "documentation": {}
+    },
+    {
+        "label": "openapi_type_to_ts",
+        "kind": 2,
+        "importPath": "cli.openapi_parser",
+        "description": "cli.openapi_parser",
+        "peekOfCode": "def openapi_type_to_ts(schema: dict, spec: dict) -> str:\n    \"\"\"Convert an OpenAPI schema object to a TypeScript type string.\"\"\"\n    if not schema:\n        return \"unknown\"\n    # Handle $ref\n    if \"$ref\" in schema:\n        return ref_to_name(schema[\"$ref\"])\n    # Handle allOf (inheritance / composition)\n    if \"allOf\" in schema:\n        types = [openapi_type_to_ts(s, spec) for s in schema[\"allOf\"]]",
+        "detail": "cli.openapi_parser",
+        "documentation": {}
+    },
+    {
+        "label": "ref_to_name",
+        "kind": 2,
+        "importPath": "cli.openapi_parser",
+        "description": "cli.openapi_parser",
+        "peekOfCode": "def ref_to_name(ref: str) -> str:\n    \"\"\"Extract type name from $ref like '#/components/schemas/Product'.\"\"\"\n    return ref.split(\"/\")[-1]\n# ─── Main Parser ─────────────────────────────────────────────────────────────\ndef parse_openapi(spec_data: dict) -> ParsedSpec:\n    \"\"\"Parse a full OpenAPI 3.x spec dict into our intermediate representation.\"\"\"\n    info = spec_data.get(\"info\", {})\n    servers = spec_data.get(\"servers\", [])\n    base_url = servers[0][\"url\"] if servers else \"\"\n    result = ParsedSpec(",
+        "detail": "cli.openapi_parser",
+        "documentation": {}
+    },
+    {
+        "label": "parse_openapi",
+        "kind": 2,
+        "importPath": "cli.openapi_parser",
+        "description": "cli.openapi_parser",
+        "peekOfCode": "def parse_openapi(spec_data: dict) -> ParsedSpec:\n    \"\"\"Parse a full OpenAPI 3.x spec dict into our intermediate representation.\"\"\"\n    info = spec_data.get(\"info\", {})\n    servers = spec_data.get(\"servers\", [])\n    base_url = servers[0][\"url\"] if servers else \"\"\n    result = ParsedSpec(\n        title=info.get(\"title\", \"API\"),\n        version=info.get(\"version\", \"1.0.0\"),\n        base_url=base_url,\n    )",
+        "detail": "cli.openapi_parser",
+        "documentation": {}
+    },
+    {
+        "label": "load_spec",
+        "kind": 2,
+        "importPath": "cli.openapi_parser",
+        "description": "cli.openapi_parser",
+        "peekOfCode": "def load_spec(source: str) -> dict:\n    \"\"\"Load an OpenAPI spec from a file path or URL.\"\"\"\n    if source.startswith(\"http://\") or source.startswith(\"https://\"):\n        import urllib.request\n        with urllib.request.urlopen(source) as resp:\n            return json.loads(resp.read())\n    else:\n        path = Path(source)\n        text = path.read_text()\n        if path.suffix in (\".yaml\", \".yml\"):",
+        "detail": "cli.openapi_parser",
+        "documentation": {}
+    }
+]

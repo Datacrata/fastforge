@@ -1,0 +1,24 @@
+[project]
+name = "fastforge-core"
+version = "0.3.0"
+description = "FastForge runtime framework for FastAPI"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.115.0",
+    "sqlalchemy>=2.0.0",
+    "pydantic>=2.0.0",
+    "pydantic-settings>=2.0.0",
+    "python-jose[cryptography]>=3.3.0",
+    "passlib[bcrypt]>=1.7.0",
+]
+
+[project.optional-dependencies]
+postgres = ["psycopg2-binary>=2.9.0"]
+alembic = ["alembic>=1.13.0"]
+
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["fastforge_core*"]
