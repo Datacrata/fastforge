@@ -1569,6 +1569,15 @@
         "documentation": {}
     },
     {
+        "label": "bcrypt",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "bcrypt",
+        "description": "bcrypt",
+        "detail": "bcrypt",
+        "documentation": {}
+    },
+    {
         "label": "BaseModel",
         "importPath": "pydantic",
         "description": "pydantic",
@@ -2362,6 +2371,14 @@
         "documentation": {}
     },
     {
+        "label": "inspect",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
         "label": "Column",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
@@ -3000,6 +3017,14 @@
         "documentation": {}
     },
     {
+        "label": "asynccontextmanager",
+        "importPath": "contextlib",
+        "description": "contextlib",
+        "isExtraImport": true,
+        "detail": "contextlib",
+        "documentation": {}
+    },
+    {
         "label": "CORSMiddleware",
         "importPath": "fastapi.middleware.cors",
         "description": "fastapi.middleware.cors",
@@ -3408,7 +3433,7 @@
         "kind": 2,
         "importPath": "backend.build.lib.fastforge_core.auth.password",
         "description": "backend.build.lib.fastforge_core.auth.password",
-        "peekOfCode": "def hash_password(password: str) -> str:\n    \"\"\"Hash a plain-text password.\"\"\"\n    if pwd_context is None:\n        raise ImportError(\"Install passlib: pip install passlib[bcrypt]\")\n    return pwd_context.hash(password)\ndef verify_password(plain: str, hashed: str) -> bool:\n    \"\"\"Verify a password against its hash.\"\"\"\n    if pwd_context is None:\n        raise ImportError(\"Install passlib: pip install passlib[bcrypt]\")\n    return pwd_context.verify(plain, hashed)",
+        "peekOfCode": "def hash_password(password: str) -> str:\n    \"\"\"Hash a plain-text password using bcrypt.\"\"\"\n    pwd_bytes = password.encode(\"utf-8\")\n    salt = bcrypt.gensalt()\n    return bcrypt.hashpw(pwd_bytes, salt).decode(\"utf-8\")\ndef verify_password(plain: str, hashed: str) -> bool:\n    \"\"\"Verify a password against its bcrypt hash.\"\"\"\n    return bcrypt.checkpw(plain.encode(\"utf-8\"), hashed.encode(\"utf-8\"))",
         "detail": "backend.build.lib.fastforge_core.auth.password",
         "documentation": {}
     },
@@ -3417,7 +3442,7 @@
         "kind": 2,
         "importPath": "backend.build.lib.fastforge_core.auth.password",
         "description": "backend.build.lib.fastforge_core.auth.password",
-        "peekOfCode": "def verify_password(plain: str, hashed: str) -> bool:\n    \"\"\"Verify a password against its hash.\"\"\"\n    if pwd_context is None:\n        raise ImportError(\"Install passlib: pip install passlib[bcrypt]\")\n    return pwd_context.verify(plain, hashed)",
+        "peekOfCode": "def verify_password(plain: str, hashed: str) -> bool:\n    \"\"\"Verify a password against its bcrypt hash.\"\"\"\n    return bcrypt.checkpw(plain.encode(\"utf-8\"), hashed.encode(\"utf-8\"))",
         "detail": "backend.build.lib.fastforge_core.auth.password",
         "documentation": {}
     },
@@ -3607,6 +3632,15 @@
         "importPath": "backend.build.lib.fastforge_core.db.alembic_utils",
         "description": "backend.build.lib.fastforge_core.db.alembic_utils",
         "peekOfCode": "def run_migrations(backend_path: str, direction: str = \"up\") -> bool:\n    \"\"\"Run migrations up or down.\"\"\"\n    cmd = [\"alembic\", \"upgrade\", \"head\"] if direction == \"up\" else [\"alembic\", \"downgrade\", \"-1\"]\n    try:\n        result = subprocess.run(cmd, cwd=backend_path, capture_output=True, text=True)\n        if result.returncode == 0:\n            print(f\"  ✅ Migration {'applied' if direction == 'up' else 'reverted'}\")\n            return True\n        else:\n            print(f\"  ⚠ Migration failed: {result.stderr}\")",
+        "detail": "backend.build.lib.fastforge_core.db.alembic_utils",
+        "documentation": {}
+    },
+    {
+        "label": "stamp_head",
+        "kind": 2,
+        "importPath": "backend.build.lib.fastforge_core.db.alembic_utils",
+        "description": "backend.build.lib.fastforge_core.db.alembic_utils",
+        "peekOfCode": "def stamp_head(backend_path: str) -> bool:\n    \"\"\"Stamp the database with the latest Alembic revision without running migrations.\n    Use after create_all() so Alembic knows the DB is current.\"\"\"\n    try:\n        result = subprocess.run(\n            [\"alembic\", \"stamp\", \"head\"],\n            cwd=backend_path,\n            capture_output=True,\n            text=True,\n        )",
         "detail": "backend.build.lib.fastforge_core.db.alembic_utils",
         "documentation": {}
     },
@@ -4119,7 +4153,7 @@
         "kind": 2,
         "importPath": "backend.fastforge_core.auth.password",
         "description": "backend.fastforge_core.auth.password",
-        "peekOfCode": "def hash_password(password: str) -> str:\n    \"\"\"Hash a plain-text password.\"\"\"\n    if pwd_context is None:\n        raise ImportError(\"Install passlib: pip install passlib[bcrypt]\")\n    return pwd_context.hash(password)\ndef verify_password(plain: str, hashed: str) -> bool:\n    \"\"\"Verify a password against its hash.\"\"\"\n    if pwd_context is None:\n        raise ImportError(\"Install passlib: pip install passlib[bcrypt]\")\n    return pwd_context.verify(plain, hashed)",
+        "peekOfCode": "def hash_password(password: str) -> str:\n    \"\"\"Hash a plain-text password using bcrypt.\"\"\"\n    pwd_bytes = password.encode(\"utf-8\")\n    salt = bcrypt.gensalt()\n    return bcrypt.hashpw(pwd_bytes, salt).decode(\"utf-8\")\ndef verify_password(plain: str, hashed: str) -> bool:\n    \"\"\"Verify a password against its bcrypt hash.\"\"\"\n    return bcrypt.checkpw(plain.encode(\"utf-8\"), hashed.encode(\"utf-8\"))",
         "detail": "backend.fastforge_core.auth.password",
         "documentation": {}
     },
@@ -4128,7 +4162,7 @@
         "kind": 2,
         "importPath": "backend.fastforge_core.auth.password",
         "description": "backend.fastforge_core.auth.password",
-        "peekOfCode": "def verify_password(plain: str, hashed: str) -> bool:\n    \"\"\"Verify a password against its hash.\"\"\"\n    if pwd_context is None:\n        raise ImportError(\"Install passlib: pip install passlib[bcrypt]\")\n    return pwd_context.verify(plain, hashed)",
+        "peekOfCode": "def verify_password(plain: str, hashed: str) -> bool:\n    \"\"\"Verify a password against its bcrypt hash.\"\"\"\n    return bcrypt.checkpw(plain.encode(\"utf-8\"), hashed.encode(\"utf-8\"))",
         "detail": "backend.fastforge_core.auth.password",
         "documentation": {}
     },
@@ -4318,6 +4352,15 @@
         "importPath": "backend.fastforge_core.db.alembic_utils",
         "description": "backend.fastforge_core.db.alembic_utils",
         "peekOfCode": "def run_migrations(backend_path: str, direction: str = \"up\") -> bool:\n    \"\"\"Run migrations up or down.\"\"\"\n    cmd = [\"alembic\", \"upgrade\", \"head\"] if direction == \"up\" else [\"alembic\", \"downgrade\", \"-1\"]\n    try:\n        result = subprocess.run(cmd, cwd=backend_path, capture_output=True, text=True)\n        if result.returncode == 0:\n            print(f\"  ✅ Migration {'applied' if direction == 'up' else 'reverted'}\")\n            return True\n        else:\n            print(f\"  ⚠ Migration failed: {result.stderr}\")",
+        "detail": "backend.fastforge_core.db.alembic_utils",
+        "documentation": {}
+    },
+    {
+        "label": "stamp_head",
+        "kind": 2,
+        "importPath": "backend.fastforge_core.db.alembic_utils",
+        "description": "backend.fastforge_core.db.alembic_utils",
+        "peekOfCode": "def stamp_head(backend_path: str) -> bool:\n    \"\"\"Stamp the database with the latest Alembic revision without running migrations.\n    Use after create_all() so Alembic knows the DB is current.\"\"\"\n    try:\n        result = subprocess.run(\n            [\"alembic\", \"stamp\", \"head\"],\n            cwd=backend_path,\n            capture_output=True,\n            text=True,\n        )",
         "detail": "backend.fastforge_core.db.alembic_utils",
         "documentation": {}
     },
@@ -4821,7 +4864,16 @@
         "kind": 5,
         "importPath": "cli.cmd_init",
         "description": "cli.cmd_init",
-        "peekOfCode": "api_router = APIRouter()\n# FASTFORGE_ROUTER_IMPORTS\n# FASTFORGE_ROUTER_INCLUDES\n''')\n    _write(be / \"app\" / \"main.py\", f'''\"\"\"\n{project_name} — FastAPI Application\nBuilt with FastForge Framework\n\"\"\"\nfrom fastapi import FastAPI\nfrom fastapi.middleware.cors import CORSMiddleware",
+        "peekOfCode": "api_router = APIRouter()\n# FASTFORGE_ROUTER_IMPORTS\n# FASTFORGE_ROUTER_INCLUDES\n''')\n    _write(be / \"app\" / \"main.py\", f'''\"\"\"\n{project_name} — FastAPI Application\nBuilt with FastForge Framework\n\"\"\"\nfrom contextlib import asynccontextmanager\nimport logging",
+        "detail": "cli.cmd_init",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "cli.cmd_init",
+        "description": "cli.cmd_init",
+        "peekOfCode": "logger = logging.getLogger(\"fastforge\")\njwt_service = JwtService(TokenConfig(\n    secret=settings.JWT_SECRET,\n    algorithm=settings.JWT_ALGORITHM,\n    access_expire_minutes=settings.JWT_EXPIRE_MINUTES,\n))\ndef _needs_init() -> bool:\n    \"\"\"Check if tables need to be created (first run or empty DB).\"\"\"\n    inspector = inspect(db_config.engine)\n    return \"fastforge_users\" not in inspector.get_table_names()",
         "detail": "cli.cmd_init",
         "documentation": {}
     },
@@ -4830,16 +4882,7 @@
         "kind": 5,
         "importPath": "cli.cmd_init",
         "description": "cli.cmd_init",
-        "peekOfCode": "jwt_service = JwtService(TokenConfig(\n    secret=settings.JWT_SECRET,\n    algorithm=settings.JWT_ALGORITHM,\n    access_expire_minutes=settings.JWT_EXPIRE_MINUTES,\n))\nBase.metadata.create_all(bind=db_config.engine)\n# Data seeding\ndb = next(db_config.get_db())\ntry:\n    seed_manager.run_all(db)",
-        "detail": "cli.cmd_init",
-        "documentation": {}
-    },
-    {
-        "label": "db",
-        "kind": 5,
-        "importPath": "cli.cmd_init",
-        "description": "cli.cmd_init",
-        "peekOfCode": "db = next(db_config.get_db())\ntry:\n    seed_manager.run_all(db)\nfinally:\n    db.close()\napp = FastAPI(\n    title=settings.APP_NAME,\n    docs_url=f\"{{settings.API_PREFIX}}/docs\",\n    openapi_url=f\"{{settings.API_PREFIX}}/openapi.json\",\n)",
+        "peekOfCode": "jwt_service = JwtService(TokenConfig(\n    secret=settings.JWT_SECRET,\n    algorithm=settings.JWT_ALGORITHM,\n    access_expire_minutes=settings.JWT_EXPIRE_MINUTES,\n))\ndef _needs_init() -> bool:\n    \"\"\"Check if tables need to be created (first run or empty DB).\"\"\"\n    inspector = inspect(db_config.engine)\n    return \"fastforge_users\" not in inspector.get_table_names()\n@asynccontextmanager",
         "detail": "cli.cmd_init",
         "documentation": {}
     },
@@ -4848,7 +4891,7 @@
         "kind": 5,
         "importPath": "cli.cmd_init",
         "description": "cli.cmd_init",
-        "peekOfCode": "app = FastAPI(\n    title=settings.APP_NAME,\n    docs_url=f\"{{settings.API_PREFIX}}/docs\",\n    openapi_url=f\"{{settings.API_PREFIX}}/openapi.json\",\n)\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=settings.CORS_ORIGINS,\n    allow_credentials=True,\n    allow_methods=[\"*\"],",
+        "peekOfCode": "app = FastAPI(\n    title=settings.APP_NAME,\n    docs_url=f\"{{settings.API_PREFIX}}/docs\",\n    openapi_url=f\"{{settings.API_PREFIX}}/openapi.json\",\n    lifespan=lifespan,\n)\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=settings.CORS_ORIGINS,\n    allow_credentials=True,",
         "detail": "cli.cmd_init",
         "documentation": {}
     },

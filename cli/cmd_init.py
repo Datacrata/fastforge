@@ -99,8 +99,12 @@ api_router = APIRouter()
 {project_name} — FastAPI Application
 Built with FastForge Framework
 """
+from contextlib import asynccontextmanager
+import logging
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from sqlalchemy import inspect
 
 from app.core.config import settings
 from app.db import db_config, get_db, Base
@@ -117,25 +121,50 @@ from fastforge_core.settings import SettingValue  # noqa
 
 # FASTFORGE_MODEL_IMPORTS
 
+logger = logging.getLogger("fastforge")
+
 jwt_service = JwtService(TokenConfig(
     secret=settings.JWT_SECRET,
     algorithm=settings.JWT_ALGORITHM,
     access_expire_minutes=settings.JWT_EXPIRE_MINUTES,
 ))
 
-Base.metadata.create_all(bind=db_config.engine)
 
-# Data seeding
-db = next(db_config.get_db())
-try:
-    seed_manager.run_all(db)
-finally:
-    db.close()
+def _needs_init() -> bool:
+    """Check if tables need to be created (first run or empty DB)."""
+    inspector = inspect(db_config.engine)
+    return "fastforge_users" not in inspector.get_table_names()
+
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    # ── Startup ──────────────────────────────────────────────────────
+    if _needs_init():
+        logger.info("First run detected — creating tables and seeding data...")
+        Base.metadata.create_all(bind=db_config.engine)
+
+        # Stamp Alembic so it knows the DB is current
+        import subprocess, pathlib
+        backend_dir = str(pathlib.Path(__file__).resolve().parent.parent)
+        subprocess.run(["alembic", "stamp", "head"], cwd=backend_dir,
+                        capture_output=True)
+
+        db = next(db_config.get_db())
+        try:
+            seed_manager.run_all(db)
+        finally:
+            db.close()
+    else:
+        logger.info("Database already initialized, skipping create_all & seeding.")
+    yield
+    # ── Shutdown ─────────────────────────────────────────────────────
+
 
 app = FastAPI(
     title=settings.APP_NAME,
     docs_url=f"{{settings.API_PREFIX}}/docs",
     openapi_url=f"{{settings.API_PREFIX}}/openapi.json",
+    lifespan=lifespan,
 )
 
 app.add_middleware(
@@ -197,7 +226,7 @@ JWT_SECRET=change-this-in-production-{datetime.now().timestamp():.0f}
     "pydantic-settings>=2.0.0",
     "python-multipart>=0.0.9",
     "python-jose[cryptography]>=3.3.0",
-    "passlib[bcrypt]>=1.7.0",
+    "bcrypt>=4.0.0",
     "fastforge-core",{db_dep}'''
     else:
         deps = f'''    "fastapi>=0.115.0",
@@ -208,7 +237,7 @@ JWT_SECRET=change-this-in-production-{datetime.now().timestamp():.0f}
     "python-multipart>=0.0.9",
     "alembic>=1.13.0",
     "python-jose[cryptography]>=3.3.0",
-    "passlib[bcrypt]>=1.7.0",
+    "bcrypt>=4.0.0",
     "fastforge-core",{db_dep}'''
 
     _write(be / "pyproject.toml", f'''[project]

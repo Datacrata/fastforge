@@ -90,6 +90,21 @@ def run_migrations(backend_path: str, direction: str = "up") -> bool:
         return False
 
 
+def stamp_head(backend_path: str) -> bool:
+    """Stamp the database with the latest Alembic revision without running migrations.
+    Use after create_all() so Alembic knows the DB is current."""
+    try:
+        result = subprocess.run(
+            ["alembic", "stamp", "head"],
+            cwd=backend_path,
+            capture_output=True,
+            text=True,
+        )
+        return result.returncode == 0
+    except FileNotFoundError:
+        return False
+
+
 def _patch_alembic_env(backend_path: str):
     """
     Patch the generated alembic/env.py to use our models and config.

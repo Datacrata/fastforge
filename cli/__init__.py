@@ -163,9 +163,11 @@ Examples:
         message = args.message or "auto migration"
         print(f"\n⚡ FastForge — Creating migration: {message}\n")
 
-        from fastforge_core.db.alembic_utils import init_alembic, generate_migration
+        from fastforge_core.db.alembic_utils import init_alembic, generate_migration, run_migrations
         init_alembic(be_path)
-        generate_migration(be_path, message)
+        if generate_migration(be_path, message):
+            print("\n  Applying migration...")
+            run_migrations(be_path, "up")
 
     # ── generate: read model → generate everything else ──────────────────
     elif args.command == "generate":
