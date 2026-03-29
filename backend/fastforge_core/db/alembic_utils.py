@@ -116,12 +116,25 @@ def _patch_alembic_env(backend_path: str):
     patch = '''
 # ── FastForge Auto-Config ──────────────────────────────────────────────────
 # Import all your models here so Alembic can detect them
+import sys, os
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
+
 from app.core.config import settings
 from fastforge_core.base.entities import Base
 
-# Import identity module models
+# Import all built-in module models
 try:
     from fastforge_core.modules.identity.models import User, Role
+except ImportError:
+    pass
+
+try:
+    from fastforge_core.modules.tenant_management.models import Tenant, TenantFeature
+except ImportError:
+    pass
+
+try:
+    from fastforge_core.settings import SettingValue
 except ImportError:
     pass
 

@@ -2493,10 +2493,11 @@
         "documentation": {}
     },
     {
-        "label": "Path",
+        "label": "pathlib",
+        "kind": 6,
+        "isExtraImport": true,
         "importPath": "pathlib",
         "description": "pathlib",
-        "isExtraImport": true,
         "detail": "pathlib",
         "documentation": {}
     },
@@ -2546,6 +2547,23 @@
         "description": "pathlib",
         "isExtraImport": true,
         "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "sys,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys.",
+        "description": "sys.",
+        "detail": "sys.",
         "documentation": {}
     },
     {
@@ -4873,7 +4891,16 @@
         "kind": 5,
         "importPath": "cli.cmd_init",
         "description": "cli.cmd_init",
-        "peekOfCode": "logger = logging.getLogger(\"fastforge\")\njwt_service = JwtService(TokenConfig(\n    secret=settings.JWT_SECRET,\n    algorithm=settings.JWT_ALGORITHM,\n    access_expire_minutes=settings.JWT_EXPIRE_MINUTES,\n))\ndef _needs_init() -> bool:\n    \"\"\"Check if tables need to be created (first run or empty DB).\"\"\"\n    inspector = inspect(db_config.engine)\n    return \"fastforge_users\" not in inspector.get_table_names()",
+        "peekOfCode": "logger = logging.getLogger(\"fastforge\")\nBACKEND_DIR = str(pathlib.Path(__file__).resolve().parent.parent)\njwt_service = JwtService(TokenConfig(\n    secret=settings.JWT_SECRET,\n    algorithm=settings.JWT_ALGORITHM,\n    access_expire_minutes=settings.JWT_EXPIRE_MINUTES,\n))\n@asynccontextmanager\nasync def lifespan(app: FastAPI):\n    # ── Startup: ensure all tables exist ─────────────────────────────",
+        "detail": "cli.cmd_init",
+        "documentation": {}
+    },
+    {
+        "label": "BACKEND_DIR",
+        "kind": 5,
+        "importPath": "cli.cmd_init",
+        "description": "cli.cmd_init",
+        "peekOfCode": "BACKEND_DIR = str(pathlib.Path(__file__).resolve().parent.parent)\njwt_service = JwtService(TokenConfig(\n    secret=settings.JWT_SECRET,\n    algorithm=settings.JWT_ALGORITHM,\n    access_expire_minutes=settings.JWT_EXPIRE_MINUTES,\n))\n@asynccontextmanager\nasync def lifespan(app: FastAPI):\n    # ── Startup: ensure all tables exist ─────────────────────────────\n    inspector = sa_inspect(db_config.engine)",
         "detail": "cli.cmd_init",
         "documentation": {}
     },
@@ -4882,7 +4909,7 @@
         "kind": 5,
         "importPath": "cli.cmd_init",
         "description": "cli.cmd_init",
-        "peekOfCode": "jwt_service = JwtService(TokenConfig(\n    secret=settings.JWT_SECRET,\n    algorithm=settings.JWT_ALGORITHM,\n    access_expire_minutes=settings.JWT_EXPIRE_MINUTES,\n))\ndef _needs_init() -> bool:\n    \"\"\"Check if tables need to be created (first run or empty DB).\"\"\"\n    inspector = inspect(db_config.engine)\n    return \"fastforge_users\" not in inspector.get_table_names()\n@asynccontextmanager",
+        "peekOfCode": "jwt_service = JwtService(TokenConfig(\n    secret=settings.JWT_SECRET,\n    algorithm=settings.JWT_ALGORITHM,\n    access_expire_minutes=settings.JWT_EXPIRE_MINUTES,\n))\n@asynccontextmanager\nasync def lifespan(app: FastAPI):\n    # ── Startup: ensure all tables exist ─────────────────────────────\n    inspector = sa_inspect(db_config.engine)\n    existing_tables = inspector.get_table_names()",
         "detail": "cli.cmd_init",
         "documentation": {}
     },
@@ -5211,11 +5238,29 @@
         "documentation": {}
     },
     {
+        "label": "register_model_imports",
+        "kind": 2,
+        "importPath": "cli.gen_model_stub",
+        "description": "cli.gen_model_stub",
+        "peekOfCode": "def register_model_imports(entity: str, base_path: str):\n    \"\"\"Register model imports in main.py and migrations/env.py so that\n    both the app and Alembic are aware of the new model.\"\"\"\n    snake = to_snake(entity)\n    pascal = to_pascal(entity)\n    # 1. main.py — so the app loads the model on startup\n    main_py = f\"{base_path}/app/main.py\"\n    _inject_model_import(main_py, snake, pascal)\n    # 2. migrations/env.py — so Alembic detects the model for autogenerate\n    env_py = f\"{base_path}/migrations/env.py\"",
+        "detail": "cli.gen_model_stub",
+        "documentation": {}
+    },
+    {
         "label": "generate_model_stub",
         "kind": 2,
         "importPath": "cli.gen_model_stub",
         "description": "cli.gen_model_stub",
         "peekOfCode": "def generate_model_stub(entity: str, base_path: str) -> str:\n    \"\"\"\n    Generate a model stub file for the user to fill in.\n    Returns the file path.\n    \"\"\"\n    snake = to_snake(entity)\n    pascal = to_pascal(entity)\n    plural = pluralize(snake)\n    content = f'''\"\"\"\n{pascal} Model",
+        "detail": "cli.gen_model_stub",
+        "documentation": {}
+    },
+    {
+        "label": "IMPORT_MARKER",
+        "kind": 5,
+        "importPath": "cli.gen_model_stub",
+        "description": "cli.gen_model_stub",
+        "peekOfCode": "IMPORT_MARKER = \"# FASTFORGE_MODEL_IMPORTS\"\ndef _inject_model_import(file_path: str, snake: str, pascal: str):\n    \"\"\"Inject 'from app.models.<snake> import <Pascal>' into a file\n    that contains the FASTFORGE_MODEL_IMPORTS marker comment.\"\"\"\n    if not os.path.exists(file_path):\n        return\n    import_line = f\"from app.models.{snake} import {pascal}  # noqa\"\n    content = file_path if isinstance(file_path, str) else file_path\n    with open(file_path, \"r\") as f:\n        content = f.read()",
         "detail": "cli.gen_model_stub",
         "documentation": {}
     },

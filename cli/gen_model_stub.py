@@ -8,6 +8,51 @@ from __future__ import annotations
 import os
 from .field_mappings import to_snake, to_pascal, pluralize
 
+IMPORT_MARKER = "# FASTFORGE_MODEL_IMPORTS"
+
+
+def _inject_model_import(file_path: str, snake: str, pascal: str):
+    """Inject 'from app.models.<snake> import <Pascal>' into a file
+    that contains the FASTFORGE_MODEL_IMPORTS marker comment."""
+    if not os.path.exists(file_path):
+        return
+
+    import_line = f"from app.models.{snake} import {pascal}  # noqa"
+    content = file_path if isinstance(file_path, str) else file_path
+
+    with open(file_path, "r") as f:
+        content = f.read()
+
+    # Already imported?
+    if import_line in content:
+        return
+
+    if IMPORT_MARKER not in content:
+        return
+
+    # Insert the import line right after the marker
+    content = content.replace(
+        IMPORT_MARKER,
+        f"{IMPORT_MARKER}\n{import_line}",
+    )
+    with open(file_path, "w") as f:
+        f.write(content)
+
+
+def register_model_imports(entity: str, base_path: str):
+    """Register model imports in main.py and migrations/env.py so that
+    both the app and Alembic are aware of the new model."""
+    snake = to_snake(entity)
+    pascal = to_pascal(entity)
+
+    # 1. main.py — so the app loads the model on startup
+    main_py = f"{base_path}/app/main.py"
+    _inject_model_import(main_py, snake, pascal)
+
+    # 2. migrations/env.py — so Alembic detects the model for autogenerate
+    env_py = f"{base_path}/migrations/env.py"
+    _inject_model_import(env_py, snake, pascal)
+
 
 def generate_model_stub(entity: str, base_path: str) -> str:
     """

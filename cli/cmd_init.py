@@ -101,10 +101,12 @@ Built with FastForge Framework
 """
 from contextlib import asynccontextmanager
 import logging
+import subprocess
+import pathlib
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from sqlalchemy import inspect
+from sqlalchemy import inspect as sa_inspect
 
 from app.core.config import settings
 from app.db import db_config, get_db, Base
@@ -123,6 +125,8 @@ from fastforge_core.settings import SettingValue  # noqa
 
 logger = logging.getLogger("fastforge")
 
+BACKEND_DIR = str(pathlib.Path(__file__).resolve().parent.parent)
+
 jwt_service = JwtService(TokenConfig(
     secret=settings.JWT_SECRET,
     algorithm=settings.JWT_ALGORITHM,
@@ -130,32 +134,36 @@ jwt_service = JwtService(TokenConfig(
 ))
 
 
-def _needs_init() -> bool:
-    """Check if tables need to be created (first run or empty DB)."""
-    inspector = inspect(db_config.engine)
-    return "fastforge_users" not in inspector.get_table_names()
-
-
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    # ── Startup ──────────────────────────────────────────────────────
-    if _needs_init():
-        logger.info("First run detected — creating tables and seeding data...")
-        Base.metadata.create_all(bind=db_config.engine)
+    # ── Startup: ensure all tables exist ─────────────────────────────
+    inspector = sa_inspect(db_config.engine)
+    existing_tables = inspector.get_table_names()
 
-        # Stamp Alembic so it knows the DB is current
-        import subprocess, pathlib
-        backend_dir = str(pathlib.Path(__file__).resolve().parent.parent)
-        subprocess.run(["alembic", "stamp", "head"], cwd=backend_dir,
-                        capture_output=True)
+    # create_all() is idempotent — only creates MISSING tables,
+    # never alters existing ones. Safe to call every time.
+    Base.metadata.create_all(bind=db_config.engine)
 
-        db = next(db_config.get_db())
-        try:
-            seed_manager.run_all(db)
-        finally:
-            db.close()
-    else:
-        logger.info("Database already initialized, skipping create_all & seeding.")
+    # If Alembic is set up, stamp current state so future migrations work
+    if "alembic_version" not in existing_tables:
+        subprocess.run(
+            ["alembic", "stamp", "head"], cwd=BACKEND_DIR,
+            capture_output=True,
+        )
+
+    # Apply any pending Alembic migrations (for schema changes)
+    subprocess.run(
+        ["alembic", "upgrade", "head"], cwd=BACKEND_DIR,
+        capture_output=True,
+    )
+
+    # ── Seed data (idempotent) ───────────────────────────────────────
+    db = next(db_config.get_db())
+    try:
+        seed_manager.run_all(db)
+    finally:
+        db.close()
+
     yield
     # ── Shutdown ─────────────────────────────────────────────────────
 
@@ -296,6 +304,14 @@ uv.lock
     _install_backend(be)
     if with_react:
         _install_frontend(fe)
+
+    # ══════════════════════════════════════════════════════════════════════
+    #  ALEMBIC — Initialize directory structure (no DB connection needed)
+    # ══════════════════════════════════════════════════════════════════════
+    if db != "mongodb":
+        print("\n📦 Setting up Alembic...")
+        from fastforge_core.db.alembic_utils import init_alembic
+        init_alembic(str(be))
 
     # ── Done ──────────────────────────────────────────────────────────────
     print(f"\n{'─' * 60}")

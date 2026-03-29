@@ -136,7 +136,7 @@ Examples:
 
     # ── crud: create model stub only ─────────────────────────────────────
     elif args.command == "crud":
-        from .gen_model_stub import generate_model_stub
+        from .gen_model_stub import generate_model_stub, register_model_imports
         from .field_mappings import to_snake, to_pascal
 
         config, config_dir = _load_config()
@@ -146,6 +146,10 @@ Examples:
 
         print(f"\n⚡ FastForge — Creating model: {pascal}\n")
         model_path = generate_model_stub(args.entity, be_path)
+
+        # Auto-register imports in main.py and migrations/env.py
+        register_model_imports(args.entity, be_path)
+        print(f"  ✅ Registered {pascal} import in main.py and migrations/env.py")
 
         print(f"\n{'─' * 60}")
         print(f"  Next steps:")
