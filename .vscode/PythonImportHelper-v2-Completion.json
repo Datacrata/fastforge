@@ -2415,14 +2415,6 @@
         "documentation": {}
     },
     {
-        "label": "inspect",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
         "label": "Column",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
@@ -2525,15 +2517,6 @@
         "importPath": "subprocess",
         "description": "subprocess",
         "detail": "subprocess",
-        "documentation": {}
-    },
-    {
-        "label": "pathlib",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "detail": "pathlib",
         "documentation": {}
     },
     {
@@ -3182,14 +3165,6 @@
         "documentation": {}
     },
     {
-        "label": "seed_manager",
-        "importPath": "fastforge_core.modules.data_seeding",
-        "description": "fastforge_core.modules.data_seeding",
-        "isExtraImport": true,
-        "detail": "fastforge_core.modules.data_seeding",
-        "documentation": {}
-    },
-    {
         "label": "SettingValue",
         "importPath": "fastforge_core.settings",
         "description": "fastforge_core.settings",
@@ -3775,6 +3750,15 @@
         "importPath": "backend.build.lib.fastforge_core.db.alembic_utils",
         "description": "backend.build.lib.fastforge_core.db.alembic_utils",
         "peekOfCode": "def stamp_head(backend_path: str) -> bool:\n    \"\"\"Stamp the database with the latest Alembic revision without running migrations.\n    Use after create_all() so Alembic knows the DB is current.\"\"\"\n    try:\n        result = subprocess.run(\n            [\"alembic\", \"stamp\", \"head\"],\n            cwd=backend_path,\n            capture_output=True,\n            text=True,\n        )",
+        "detail": "backend.build.lib.fastforge_core.db.alembic_utils",
+        "documentation": {}
+    },
+    {
+        "label": "run_seeders",
+        "kind": 2,
+        "importPath": "backend.build.lib.fastforge_core.db.alembic_utils",
+        "description": "backend.build.lib.fastforge_core.db.alembic_utils",
+        "peekOfCode": "def run_seeders(backend_path: str) -> bool:\n    \"\"\"Run data seeders after migrations are applied.\"\"\"\n    try:\n        import sys\n        sys.path.insert(0, backend_path)\n        from fastforge_core.db.session import DatabaseConfig\n        from pydantic_settings import BaseSettings\n        # Load the project's settings to get DATABASE_URL\n        env_file = Path(backend_path) / \".env\"\n        # Read DATABASE_URL from .env",
         "detail": "backend.build.lib.fastforge_core.db.alembic_utils",
         "documentation": {}
     },
@@ -4499,6 +4483,15 @@
         "documentation": {}
     },
     {
+        "label": "run_seeders",
+        "kind": 2,
+        "importPath": "backend.fastforge_core.db.alembic_utils",
+        "description": "backend.fastforge_core.db.alembic_utils",
+        "peekOfCode": "def run_seeders(backend_path: str) -> bool:\n    \"\"\"Run data seeders after migrations are applied.\"\"\"\n    try:\n        import sys\n        sys.path.insert(0, backend_path)\n        from fastforge_core.db.session import DatabaseConfig\n        from pydantic_settings import BaseSettings\n        # Load the project's settings to get DATABASE_URL\n        env_file = Path(backend_path) / \".env\"\n        # Read DATABASE_URL from .env",
+        "detail": "backend.fastforge_core.db.alembic_utils",
+        "documentation": {}
+    },
+    {
         "label": "target_metadata",
         "kind": 5,
         "importPath": "backend.fastforge_core.db.alembic_utils",
@@ -5007,16 +5000,7 @@
         "kind": 5,
         "importPath": "cli.cmd_init",
         "description": "cli.cmd_init",
-        "peekOfCode": "logger = logging.getLogger(\"fastforge\")\nBACKEND_DIR = str(pathlib.Path(__file__).resolve().parent.parent)\njwt_service = JwtService(TokenConfig(\n    secret=settings.JWT_SECRET,\n    algorithm=settings.JWT_ALGORITHM,\n    access_expire_minutes=settings.JWT_EXPIRE_MINUTES,\n))\ndef _needs_init() -> bool:\n    \"\"\"Return True only when tables are missing (first run or new models).\"\"\"\n    inspector = sa_inspect(db_config.engine)",
-        "detail": "cli.cmd_init",
-        "documentation": {}
-    },
-    {
-        "label": "BACKEND_DIR",
-        "kind": 5,
-        "importPath": "cli.cmd_init",
-        "description": "cli.cmd_init",
-        "peekOfCode": "BACKEND_DIR = str(pathlib.Path(__file__).resolve().parent.parent)\njwt_service = JwtService(TokenConfig(\n    secret=settings.JWT_SECRET,\n    algorithm=settings.JWT_ALGORITHM,\n    access_expire_minutes=settings.JWT_EXPIRE_MINUTES,\n))\ndef _needs_init() -> bool:\n    \"\"\"Return True only when tables are missing (first run or new models).\"\"\"\n    inspector = sa_inspect(db_config.engine)\n    db_tables = set(inspector.get_table_names())",
+        "peekOfCode": "logger = logging.getLogger(\"fastforge\")\njwt_service = JwtService(TokenConfig(\n    secret=settings.JWT_SECRET,\n    algorithm=settings.JWT_ALGORITHM,\n    access_expire_minutes=settings.JWT_EXPIRE_MINUTES,\n))\n@asynccontextmanager\nasync def lifespan(app: FastAPI):\n    yield\napp = FastAPI(",
         "detail": "cli.cmd_init",
         "documentation": {}
     },
@@ -5025,7 +5009,7 @@
         "kind": 5,
         "importPath": "cli.cmd_init",
         "description": "cli.cmd_init",
-        "peekOfCode": "jwt_service = JwtService(TokenConfig(\n    secret=settings.JWT_SECRET,\n    algorithm=settings.JWT_ALGORITHM,\n    access_expire_minutes=settings.JWT_EXPIRE_MINUTES,\n))\ndef _needs_init() -> bool:\n    \"\"\"Return True only when tables are missing (first run or new models).\"\"\"\n    inspector = sa_inspect(db_config.engine)\n    db_tables = set(inspector.get_table_names())\n    model_tables = set(Base.metadata.tables.keys())",
+        "peekOfCode": "jwt_service = JwtService(TokenConfig(\n    secret=settings.JWT_SECRET,\n    algorithm=settings.JWT_ALGORITHM,\n    access_expire_minutes=settings.JWT_EXPIRE_MINUTES,\n))\n@asynccontextmanager\nasync def lifespan(app: FastAPI):\n    yield\napp = FastAPI(\n    title=settings.APP_NAME,",
         "detail": "cli.cmd_init",
         "documentation": {}
     },

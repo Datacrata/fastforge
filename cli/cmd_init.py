@@ -101,12 +101,9 @@ Built with FastForge Framework
 """
 from contextlib import asynccontextmanager
 import logging
-import subprocess
-import pathlib
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from sqlalchemy import inspect as sa_inspect
 
 from app.core.config import settings
 from app.db import db_config, get_db, Base
@@ -118,14 +115,11 @@ from fastforge_core.modules.identity import create_identity_router
 from fastforge_core.modules.identity.models import User, Role  # noqa
 from fastforge_core.modules.tenant_management import create_tenant_router
 from fastforge_core.modules.tenant_management.models import Tenant, TenantFeature  # noqa
-from fastforge_core.modules.data_seeding import seed_manager
 from fastforge_core.settings import SettingValue  # noqa
 
 # FASTFORGE_MODEL_IMPORTS
 
 logger = logging.getLogger("fastforge")
-
-BACKEND_DIR = str(pathlib.Path(__file__).resolve().parent.parent)
 
 jwt_service = JwtService(TokenConfig(
     secret=settings.JWT_SECRET,
@@ -134,36 +128,9 @@ jwt_service = JwtService(TokenConfig(
 ))
 
 
-def _needs_init() -> bool:
-    """Return True only when tables are missing (first run or new models)."""
-    inspector = sa_inspect(db_config.engine)
-    db_tables = set(inspector.get_table_names())
-    model_tables = set(Base.metadata.tables.keys())
-    return not model_tables.issubset(db_tables)
-
-
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    # ── Startup ──────────────────────────────────────────────────────
-    if _needs_init():
-        logger.info("Tables missing — running create_all + seed…")
-        Base.metadata.create_all(bind=db_config.engine)
-
-        # Stamp so Alembic knows the DB is current
-        subprocess.run(["alembic", "stamp", "head"], cwd=BACKEND_DIR, capture_output=True)
-
-        # Seed data (idempotent)
-        db = next(db_config.get_db())
-        try:
-            seed_manager.run_all(db)
-        finally:
-            db.close()
-    else:
-        # Fast path on reload: only apply pending Alembic migrations
-        subprocess.run(["alembic", "upgrade", "head"], cwd=BACKEND_DIR, capture_output=True)
-
     yield
-    # ── Shutdown ─────────────────────────────────────────────────────
 
 
 app = FastAPI(
@@ -315,9 +282,14 @@ uv.lock
     print(f"\n{'─' * 60}")
     print(f"✅ Project '{project_name}' ready!\n")
     print(f"  cd {project_name}\n")
-    print(f"  # Create entity:")
+    print(f"  # 1. Set your database URL in backend/.env")
+    print(f"  #    DATABASE_URL=postgresql://user:pass@localhost:5432/{project_name}\n")
+    print(f"  # 2. Create default tables:")
+    print(f"  fastforge migrate -m \"initial\"\n")
+    print(f"  # 3. Create entity:")
     print(f"  fastforge crud product")
     print(f"  # Edit backend/app/models/product.py")
+    print(f"  fastforge migrate -m \"add product\"")
     print(f"  fastforge generate product\n")
     print(f"  # Start backend:")
     print(f"  cd backend && uv run uvicorn app.main:app --reload")

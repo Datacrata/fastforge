@@ -105,6 +105,44 @@ def stamp_head(backend_path: str) -> bool:
         return False
 
 
+def run_seeders(backend_path: str) -> bool:
+    """Run data seeders after migrations are applied."""
+    try:
+        import sys
+        sys.path.insert(0, backend_path)
+        from fastforge_core.db.session import DatabaseConfig
+        from pydantic_settings import BaseSettings
+
+        # Load the project's settings to get DATABASE_URL
+        env_file = Path(backend_path) / ".env"
+        
+        # Read DATABASE_URL from .env
+        db_url = None
+        if env_file.exists():
+            for line in env_file.read_text().splitlines():
+                line = line.strip()
+                if line.startswith("DATABASE_URL="):
+                    db_url = line.split("=", 1)[1].strip()
+                    break
+
+        if not db_url:
+            print("  ⚠ No DATABASE_URL in .env — skipping seeders")
+            return False
+
+        db_config = DatabaseConfig(url=db_url)
+        db = next(db_config.get_db())
+        try:
+            from fastforge_core.modules.data_seeding import seed_manager
+            seed_manager.run_all(db)
+            print("  ✅ Seeders completed")
+            return True
+        finally:
+            db.close()
+    except Exception as e:
+        print(f"  ⚠ Seeder error: {e}")
+        return False
+
+
 def _patch_alembic_env(backend_path: str):
     """
     Patch the generated alembic/env.py to use our models and config.
